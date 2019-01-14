@@ -46,5 +46,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:18865522675/jingwang.git",
+  "author": "cmy <1259108412@qq.com>",
+  "license": "MIT"
 }
