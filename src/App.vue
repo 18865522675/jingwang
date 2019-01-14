@@ -13,17 +13,19 @@
             <el-button type="text" style="color: #fff">搜索</el-button>
           </div> -->
         </el-col>
-        <el-col class="nav" :span="24">
-          <el-menu :default-active="$route.path" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
+        <el-col class="nav" :span="24" style="width: 100%;">
+         	<div style="width: 1200px;margin: 0 auto;">
+         		 <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
             <template v-for="(item, index) in $router.options.routes">
-            	<el-menu-item v-if="!item.children" :index="item.path" :key="item.path">{{item.name}}</el-menu-item>
-              <el-submenu :index="index + ''" v-else style="width: 200px">
+            	<el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
+              <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
                 <template slot="title">{{item.name}}</template>
                 <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path">{{child.name}}</el-menu-item>
                 <el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path"><i :class="item.iconCls"></i>{{item.children[0].name}}</el-menu-item>
               </el-submenu>
             </template>
           </el-menu>
+         	</div>
         </el-col>
       </el-row>
     </div>
@@ -37,6 +39,12 @@ export default {
     return {
       numbers: ''
     }
+  },
+  mounted(){
+  	this.$nextTick(()=>{
+  		console.log(this.$refs.menu.querySelectorAll);
+  	})
+//	this.$refs.menu.
   },
   methods: {
     handleselect () {
@@ -62,7 +70,7 @@ export default {
 #nav {
   // padding: 30px;
   .top {
-    width: 1920px;
+    width: 100%;
     height: 100px;
     padding: 0 20%;
     // line-height: 100px;
@@ -93,15 +101,26 @@ export default {
   }
   .nav {
     width: 100%;
-    height: 55px;
+    height: 60px;
+    background: rgb(255, 108, 0);
     .el-menu {
-      padding-left: 20%; 
+      /*padding-left: 20%;*/ 
     }
   }
 }
+.el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
+	box-sizing: border-box!important;
+}
+#menu{
+	display: flex!important;
+}
+	.routeChild{
+		flex:1!important
+	}
 html,body,#app{
 	height:100%;
 	width:100%;
 	padding:0;
+	margin: 0;
 }
 </style>
