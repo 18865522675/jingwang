@@ -16,7 +16,8 @@
         <el-col class="nav" :span="24">
           <el-menu :default-active="$route.path" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
             <template v-for="(item, index) in $router.options.routes">
-              <el-submenu :index="index + ''" style="width: 200px">
+            	<el-menu-item v-if="!item.children" :index="item.path" :key="item.path">{{item.name}}</el-menu-item>
+              <el-submenu :index="index + ''" v-else style="width: 200px">
                 <template slot="title">{{item.name}}</template>
                 <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path">{{child.name}}</el-menu-item>
                 <el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path"><i :class="item.iconCls"></i>{{item.children[0].name}}</el-menu-item>
@@ -97,5 +98,10 @@ export default {
       padding-left: 20%; 
     }
   }
+}
+html,body,#app{
+	height:100%;
+	width:100%;
+	padding:0;
 }
 </style>
