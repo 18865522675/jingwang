@@ -15,8 +15,8 @@
         </el-col>
         <el-col class="nav" :span="24" style="width: 100%;">
          	<div style="width: 1200px;margin: 0 auto;">
-         		 <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
-            <template v-for="(item, index) in $router.options.routes">
+         		<el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
+              <template v-for="(item, index) in $router.options.routes">
             	<el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
               <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
                 <template slot="title">{{item.name}}</template>
@@ -68,7 +68,6 @@ export default {
   color: #2c3e50;
 }
 #nav {
-  // padding: 30px;
   .top {
     width: 100%;
     height: 100px;
@@ -117,10 +116,10 @@ export default {
 	.routeChild{
 		flex:1!important
 	}
-html,body,#app{
-	height:100%;
-	width:100%;
-	padding:0;
-	margin: 0;
-}
+  html,body,#app{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin: 0;
+  }
 </style>
