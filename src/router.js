@@ -20,7 +20,7 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       children: [
-        {path: '/products', name: '公司简介', component: () => import('./views/intoJW/intoJw.vue')},
+        {path: '/company', name: '公司简介', component: () => import('./views/intoJW/intoJw.vue')},
         {path: '/organization', name: '组织架构', component: () => import('./views/intoJW/organization.vue')},
         {path: '/list', name: '工程案例', component: () => import('./views/intoJW/list.vue')},
       ]
