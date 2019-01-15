@@ -14,10 +14,10 @@
           </div> -->
         </el-col>
         <el-col class="nav" :span="24" style="width: 100%;">
-         	<div style="width: 1200px;margin: 0 auto;">
-         		<el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
-              <template v-for="(item, index) in $router.options.routes">
-            	<el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
+        <div style="width: 1200px; margin: 0 auto;">
+          <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
+            <template v-for="(item, index) in $router.options.routes">
+              <el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
               <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
                 <template slot="title">{{item.name}}</template>
                 <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path">{{child.name}}</el-menu-item>
@@ -25,9 +25,10 @@
               </el-submenu>
             </template>
           </el-menu>
-         	</div>
+        </div>
         </el-col>
       </el-row>
+      <!-- <el-footer class="bottom">Footer</el-footer> -->
     </div>
     <router-view/>
   </div>
@@ -40,11 +41,8 @@ export default {
       numbers: ''
     }
   },
-  mounted(){
-  	this.$nextTick(()=>{
-  		console.log(this.$refs.menu.querySelectorAll);
-  	})
-//	this.$refs.menu.
+  mounted() {
+  this.$nextTick(() => {})
   },
   methods: {
     handleselect () {
@@ -114,6 +112,13 @@ export default {
     .el-menu {
       /*padding-left: 20%;*/ 
     }
+  }
+    .bottom {
+    width: 100%;
+    height: 100px;
+    // position: relative;
+    // bottom: 0;
+    background:rgba(31,31,31,1);
   }
 }
 .el-menu--horizontal>.el-submenu.is-active .el-submenu__title{

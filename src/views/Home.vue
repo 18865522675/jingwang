@@ -75,6 +75,8 @@
               杭州京旺科技有限公司是一家以气体净化、分离、纯化、混合为专业的**高新技术企业。注册资本2000万元，拥有“市级研发中心”，已通过ISO-9001质量体...
             </div>
           </div>
+          <div class="aboutUsContent-bottom1"></div>
+          <div class="aboutUsContent-bottom"></div>
         </div>
       </div>
     </article>
@@ -119,9 +121,10 @@ export default {
       }
     }
     .content {
-      width: 100%;
+      width: 1200px;
       height: 1000px;
-      margin-top: 50px;
+      margin: 50px auto;
+      border: 1px solid red;
       .productDisplay {
         .displayNav {
           width:200px;
@@ -197,7 +200,7 @@ export default {
       .craft {
         width: 100%;
         .craftContent {
-          width: 65%;
+          width: 100%;
           height: 500px;
           margin: 0 0 0 10%;
           .craftContent-title {
@@ -240,10 +243,8 @@ export default {
         width: 100%;
         margin-top: 50px;
         .aboutUsContent {
-          width: 65%;
-          height: 500px;
-          margin: 0 0 0 10%;
-          border: 1px solid red;
+          width: 100%;
+          height: 380px;
           .aboutUsContent-Title {
             text-align: left;
             font-size: 25px;
@@ -252,6 +253,7 @@ export default {
           }
           .aboutUsContent-intro {
             width: 100%;
+            height: 260px;
             margin-top: 25px;
             .aboutUsContent-introImg {
               width: 420px;
@@ -272,6 +274,19 @@ export default {
               line-height: 38px;
               float: left;
             }
+          }
+          .aboutUsContent-bottom {
+            width: 100%;
+            height: 50px;
+            clear: both;
+            background:rgba(31,31,31,1);
+          }
+          .aboutUsContent-bottom1 {
+            width: 30px;
+            height: 60px;
+            float: right;
+            margin-top: -48px;
+            background:rgba(31,31,31,1);
           }
         }
       }
