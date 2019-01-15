@@ -114,9 +114,10 @@ export default {
     }
   }
     .bottom {
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
     height: 100px;
-    // position: relative;
+    // position: absolute;
     // bottom: 0;
     background:rgba(31,31,31,1);
   }
