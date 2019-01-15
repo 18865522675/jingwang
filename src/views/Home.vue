@@ -1,12 +1,5 @@
 <template>
   <div class="home">
-    <el-carousel :interval="5000" arrow="always" height="300px">
-      <el-carousel-item v-for="(item, index) in imgList" :key="index">
-        <el-row class="imgWrap">
-          <el-col :span="24"><img ref="" :src="item.imgUrls" class=""/></el-col>
-        </el-row>
-      </el-carousel-item>
-    </el-carousel>
     <article class="content">
       <div class="productDisplay">
         <div class="displayNav">

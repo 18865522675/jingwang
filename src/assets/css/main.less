@@ -1,0 +1,21 @@
+.flexItem(@dir:row){
+  display: flex;
+  flex-direction: @dir;
+}
+.flex-r{
+  .flexItem(row)
+}
+.flex-c{
+  .flexItem(column)
+}
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.wordTitle{
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}

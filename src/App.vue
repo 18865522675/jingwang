@@ -29,7 +29,14 @@
         </el-col>
       </el-row>
     </div>
-    <router-view/>
+        <el-carousel :interval="5000" arrow="always" height="300px">
+      <el-carousel-item v-for="(item, index) in imgList" :key="index">
+        <el-row class="imgWrap">
+          <el-col :span="24"><img ref="" class="bannerImg" :src="item.imgUrls"/></el-col>
+        </el-row>
+      </el-carousel-item>
+    </el-carousel>
+    <router-view style="margin: 0 auto;width: 1200px;"/>
   </div>
 </template>
 <script>
@@ -37,7 +44,12 @@ export default {
   name: 'app',
   data () {
     return {
-      numbers: ''
+      numbers: '',
+       imgList: [
+        {id: 0, imgUrls: require('@/assets/img/banner1.jpg')},
+        {id: 0, imgUrls: require('@/assets/img/banner2.jpg')},
+        {id: 0, imgUrls: require('@/assets/img/banner3.jpg')}
+      ]
     }
   },
   mounted(){
@@ -54,6 +66,7 @@ export default {
 </script>
 
 <style lang="less">
+	 @import "./assets/css/main.less";
 .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
   background: #FF852C!important;
 }
@@ -67,7 +80,7 @@ export default {
     margin: 0;
   }
 #app {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   min-width: 1200px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -124,5 +137,13 @@ export default {
 }
 	.routeChild{
 		flex:1!important
+	}
+	.el-menu-item{
+		text-align: center;
+		width: 100%!important;
+	}
+	.bannerImg{
+		width: 100%;
+		height: 100%;
 	}
 </style>
