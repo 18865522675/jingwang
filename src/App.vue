@@ -60,7 +60,16 @@ export default {
 .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
   color: #fff!important;
 }
+  html,body{
+    height:100%;
+    width: 100%;
+    padding:0;
+    margin: 0;
+  }
 #app {
+  width: 75%;
+  margin: 0 auto;
+  min-width: 1200px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -116,10 +125,4 @@ export default {
 	.routeChild{
 		flex:1!important
 	}
-  html,body,#app{
-    height:100%;
-    width:100%;
-    padding:0;
-    margin: 0;
-  }
 </style>
