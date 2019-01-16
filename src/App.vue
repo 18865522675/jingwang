@@ -4,14 +4,10 @@
       <el-row>
         <el-col class="top">
           <div class="">
-            <div class="topTitle">浙江温州润发皮革厂</div>
-            <div class="topTitle1">WEN&nbsp;&nbsp;ZHOU&nbsp;&nbsp;RUN&nbsp;&nbsp;FA&nbsp;&nbsp;KE&nbsp;&nbsp;JI&nbsp;&nbsp;YOU&nbsp;&nbsp;XIAN&nbsp;&nbsp;GONG&nbsp;&nbsp;SI</div>
+            <div class="topTitle">杭州京旺科技有限公司</div>
+            <div class="topTitle1">HANG&nbsp;&nbsp;ZHOU&nbsp;&nbsp;JING&nbsp;&nbsp;WANG&nbsp;&nbsp;KE&nbsp;&nbsp;JI&nbsp;&nbsp;YOU&nbsp;&nbsp;XIAN&nbsp;&nbsp;GONG&nbsp;&nbsp;SI</div>
           </div>
-          <div class="topTitle2">老板没有跑路</div>
-          <!-- <div class="topSearch">
-            <el-input type="number" style="width: 220px; margin-right: 20px;" v-model="numbers" @mousewheel.native.prevent></el-input>
-            <el-button type="text" style="color: #fff">搜索</el-button>
-          </div> -->
+          <div class="topTitle2">以诚信和质量为宗旨</div>
         </el-col>
         <el-col class="nav" :span="24" style="width: 100%;">
         <div style="width: 1200px; margin: 0 auto;">
@@ -28,15 +24,59 @@
         </div>
         </el-col>
       </el-row>
-      <!-- <el-footer class="bottom">Footer</el-footer> -->
     </div>
-        <el-carousel :interval="5000" arrow="always" height="300px">
+    <el-carousel :interval="5000" arrow="always" height="300px">
       <el-carousel-item v-for="(item, index) in imgList" :key="index">
         <el-row class="imgWrap">
           <el-col :span="24"><img ref="" class="bannerImg" :src="item.imgUrls"/></el-col>
         </el-row>
       </el-carousel-item>
     </el-carousel>
+    <div class="bottom">
+      <ul>
+        <li>
+          <!-- <router-link to=""> -->
+            <span>关于我们 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>联系我们 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>客服中心 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>隐私策略 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>会员协议 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>法律声明 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>繁体站 丨</span>
+          <!-- </router-link> -->
+        </li>
+        <li>
+          <!-- <router-link> -->
+            <span>友情链接 </span>
+          <!-- </router-link> -->
+        </li>
+      </ul>
+      <div>Copyright © 2018 焦点科技. 版权所有</div>
+    </div>
     <router-view style="margin: 0 auto;width: 1200px;"/>
   </div>
 </template>
@@ -71,12 +111,19 @@ export default {
 .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
   color: #fff!important;
 }
-  html,body{
-    height:100%;
-    width: 100%;
-    padding:0;
-    margin: 0;
-  }
+@font-face {
+  font-family: yuweij;
+  src: url('./assets/ywjt.ttf')
+}
+html{
+  height:100%;
+}
+body {
+  margin: 0;
+  padding:0;
+  min-height: 100%;
+  position: relative;
+}
 #app {
   width: 100%;
   margin: 0 auto;
@@ -112,7 +159,7 @@ export default {
     }
     .topTitle2 {
       font-size: 28px;
-      font-family: yuweij;
+      font-family: 'yuweij';
       font-weight: 400;
       color:rgba(254,254,254,1);
       line-height: 100px;
@@ -126,13 +173,34 @@ export default {
       /*padding-left: 20%;*/ 
     }
   }
-    .bottom {
-    width: 75%;
-    margin: 0 auto;
-    height: 100px;
-    // position: absolute;
-    // bottom: 0;
-    background:rgba(31,31,31,1);
+}
+.bottom {
+  width: 100%;
+  height: 100px;
+  padding-top: 30px; 
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  background:rgba(31,31,31,1);
+  ul {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    li {
+      list-style: none;
+      color: #fff;
+      font-size: 18px;
+      font-family: MicrosoftYaHei;
+      font-weight:400;
+      // float: left;
+    }
+  }
+  div {
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    // font-weight:400;
+    color:rgba(255,255,255,1);
   }
 }
 .el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
@@ -142,7 +210,7 @@ export default {
 	display: flex!important;
 }
 	.routeChild{
-		flex:1!important
+		flex:1!important;
 	}
 	.el-menu-item{
 		text-align: center;

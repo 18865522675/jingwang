@@ -28,7 +28,7 @@
       </div>
       <div class="craft">
         <div class="craftContent">
-          <div style="text-align: left">
+          <div style="text-align: left;padding-left: 20px;">
             <span class="craftContent-title">新工艺新技术</span>
             <span></span>
           </div>
@@ -72,6 +72,46 @@
           <div class="aboutUsContent-bottom"></div>
         </div>
       </div>
+      <div class="contactUs">
+        <div class="paperBottom-bottom">
+					<div class="paperBottom-bottom-title">
+						联系我们
+					</div>
+					<div class="paperBottom-bottom-small" style="margin-top: 5px;">
+						<p id="allmap" style=""></p>
+					</div>
+					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
+						<div class="paperBottom-bottom-intro-item">
+							<span>联系人 ：</span>
+							<span>丁振兴</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>手 &nbsp;&nbsp;机 ：</span>
+							<span>13606536877</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>传&nbsp;&nbsp; 真 ：</span>
+							<span>0571-63266701</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>邮 &nbsp;&nbsp;箱 ：</span>
+							<span>888888888@qq.com</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>网&nbsp;&nbsp; 址 ：</span>
+							<span>XXXXXXXXXXXXXXXXXX</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
+							<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
+						</div>
+					</div>
+				</div>
+        <div class="contactUs-right">
+          <div class="right-img"><img src="../assets/img/jrwm.png" alt=""></div>
+          <div class="right-img"><img src="../assets/img/jsfw.png" alt=""></div>
+        </div>
+      </div>
     </article>
   </div>
 </template>
@@ -91,6 +131,17 @@ export default {
       ]
     }
   },
+  mounted(){
+    this.$nextTick(()=>{
+      console.log(BMap)
+          var map = new BMap.Map("allmap");
+          //创建坐标点
+          var point = new BMap.Point(116.404,39.915);
+          //初始化实例，传入坐标点并设置地图级别
+          map.centerAndZoom(point,15);
+          map.enableScrollWheelZoom(true);
+    })			
+  },
 }
 </script>
 
@@ -99,191 +150,252 @@ export default {
   // background: none!important;
 }
 .el-tabs__active-bar {
-  // opacity: 0;
+  opacity: 0;
 }
-  .home {
-    width: 100%;
-    .el-carousel {
-      .imgWrap {
+.home {
+  width: 100%;
+  padding-bottom: 100px;
+  .el-carousel {
+    .imgWrap {
+      width: 100%;
+      height: 300px;
+      img {
         width: 100%;
-        height: 300px;
-        img {
+        height: 100%;
+      }
+    }
+  }
+  .content {
+    width: 1200px;
+    // height: 1000px;
+    margin: 50px auto;
+    // padding-left: 10%;
+    border: 1px solid red;
+    .productDisplay {
+      .displayNav {
+        width: 225px;
+        height: 400px;
+        padding-top: 15px;
+        position: static;
+        z-index: 9999;
+        margin-left: 25px;
+        background:rgba(255,108,0,1);
+        box-shadow: 0px 4px 7px 0px rgba(70,30,0,0.15), 0px 11px 16px 0px rgba(210,90,2,0.39);
+        .navTitle {
+          height: 60px;
+          line-height: 60px;
+          color: #fff;
+        }
+        .el-tabs,.el-tabs__header {
           width: 100%;
-          height: 100%;
+        }
+        .el-tabs__content {
+          // width: 600px;
+          height: 300px;
+          margin-top: -40px;
+          padding-top: 50px;
+          left: 38%;
+          position: absolute;
+          overflow: visible!important;
+          .nitBg {
+            // height: 230px;
+            float: left;
+            img {
+              width: 230px;
+              height: 230px;
+            }
+          }
+        }
+        .el-tabs__item {
+          width: 100%;
+          height: 56px;
+          line-height: 50px;
+          text-align: center;
+          color: #fff;
+        }
+        .el-tabs__item:hover {
+          background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
+        }
+      }
+      .displayBottom {
+        position: relative;
+        background:rgba(31,31,31,1);
+      }
+      .displayBottom1 {
+        width: 25px;
+        height: 89px;
+        top: -100px;
+      }
+      .displayBottom2 {
+        width: 70%;
+        height: 30px;
+        top: -130px;
+        left: 249px;
+      }
+    }
+    .craft {
+      width: 100%;
+      .craftContent {
+        width: 100%;
+        height: 500px;
+        // margin: 0 0 0 10%;
+        .craftContent-title {
+          font-size:25px;
+          font-weight:400;
+          color:rgba(51,51,51,1);
+        }
+        .craftContent-img {
+          width: 100%;
+          margin-top: 20px;
+          .craftContent-wrap {
+            width: 376px;
+            float: left;
+            margin-left: 20px;
+            .craftContent-imgSize {
+              width: 100%;
+              height: 247px;
+              background: red;
+            }
+            h3 {
+              margin-top: 15px;
+            }
+            .craftContent-intro {
+              width: 350px;
+              height: 100px;
+              margin: auto;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(155,155,155,1);
+              line-height: 27px;
+            }
+            .el-button {
+              width: 376px;
+              height: 35px;
+              margin-top: 20px;
+              line-height: 2px;
+              color: #fff;
+              background :rgba(255,108,0,1);
+              border: 1px solid rgba(245, 171, 53, 1);
+            }
+          }
         }
       }
     }
-    .content {
-      width: 1200px;
-      height: 1000px;
-      margin: 50px auto;
-      border: 1px solid red;
-      .productDisplay {
-        .displayNav {
-          width:200px;
-          height:383px;
-          padding-top: 15px;
-          position: static;
-          z-index: 9999;
-          margin-left: 169px;
-          background:rgba(255,108,0,1);
-          box-shadow:0px 4px 7px 0px rgba(70,30,0,0.15), 0px 11px 16px 0px rgba(210,90,2,0.39);
-          .navTitle {
-            height: 60px;
-            line-height: 60px;
-            color: #fff;
-          }
-          .el-tabs,.el-tabs__header {
-            width: 100%;
-          }
-          .el-tabs__content {
-            // width: 600px;
+    .aboutUs {
+      width: 100%;
+      margin-top: 40px;
+      .aboutUsContent {
+        width: 100%;
+        height: 450px;
+        .aboutUsContent-Title {
+          padding-left: 20px;
+          text-align: left;
+          font-size: 25px;
+          font-family: MicrosoftYaHei;
+          color: rgba(0,0,0,1);
+        }
+        .aboutUsContent-intro {
+          width: 100%;
+          height: 300px;
+          margin-top: 15px;
+          .aboutUsContent-introImg {
+            width: 638px;
             height: 300px;
-            margin-top: -40px;
-            padding-top: 50px;
-            left: 33%;
-            position: absolute;
-            overflow: visible!important;
-            .nitBg {
-              height: 230px;
-              float: left;
-              img {
-                width: 100%;
-                height: 100%;
-              }
-            }
-            .nitBg {
-              width: 230px;
-            }
-            .nitBg2 {
-              width: 250px;
-            }
-            .nitBg3 {
-              width: 290px;
+            margin-right: 30px;
+            float: left;
+            img {
+              width: 100%;
+              height: 100%;
             }
           }
-          .el-tabs__item {
-            width: 100%;
-            height: 50px;
-            line-height: 50px;
-            text-align: center;
-            color: #fff;
-          }
-          .el-tabs__item:hover {
-            background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
-          }
-        }
-        .displayBottom {
-          position: relative;
-          background:rgba(31,31,31,1);
-        }
-        .displayBottom1 {
-          width: 25px;
-          height: 89px;
-          top: -100px;
-          left: 144px;
-        }
-        .displayBottom2 {
-          width: 51%;
-          height: 30px;
-          top: -130px;
-          left: 369px;
-        }
-      }
-      .craft {
-        width: 100%;
-        .craftContent {
-          width: 100%;
-          height: 500px;
-          margin: 0 0 0 10%;
-          .craftContent-title {
-            font-size:25px;
-            font-weight:400;
-            color:rgba(51,51,51,1);
-          }
-          .craftContent-img {
-            width: 100%;
-            margin-top: 20px;
-            .craftContent-wrap {
-              width: 280px;
-              float: left;
-              margin-left: 20px;
-              .craftContent-imgSize {
-                width: 280px;
-                height: 180px;
-                background: red;
-              }
-              .craftContent-intro {
-                font-family: MicrosoftYaHei;
-                font-weight: 400;
-                color: rgba(155,155,155,1);
-                line-height: 23px;
-              }
-              .el-button {
-                width: 260px;
-                height: 32px;
-                margin-top: 30px;
-                line-height: 2px;
-                color: #fff;
-                background :rgba(255,108,0,1);
-                border: 1px solid rgba(245, 171, 53, 1);
-              }
-            }
-          }
-        }
-      }
-      .aboutUs {
-        width: 100%;
-        margin-top: 50px;
-        .aboutUsContent {
-          width: 100%;
-          height: 380px;
-          .aboutUsContent-Title {
+          .aboutUsContent-introWords {
+            width: 400px;
+            height: 260px;
             text-align: left;
-            font-size: 25px;
+            font-size: 18px;
             font-family: MicrosoftYaHei;
             color: rgba(0,0,0,1);
+            line-height: 38px;
+            float: left;
           }
-          .aboutUsContent-intro {
+        }
+        .aboutUsContent-bottom {
+          width: 100%;
+          height: 50px;
+          clear: both;
+          background:rgba(31,31,31,1);
+        }
+        .aboutUsContent-bottom1 {
+          width: 30px;
+          height: 60px;
+          float: right;
+          margin: -48px 0 0 0;
+          background:rgba(31,31,31,1);
+        }
+      }
+    }
+    .contactUs {
+      width: 1200px;
+      display: flex;
+      // justify-content: center;
+      .paperBottom-bottom{
+        width: 350px;
+        margin-top: 40px;
+        // overflow: hidden;
+        .paperBottom-bottom-title{
+          padding-left: 20px;
+          text-align: left;
+          font-size: 19px;
+          font-family:MicrosoftYaHei;
+          font-weight: bold;
+          color:rgba(51,51,51,1);
+        }
+        .paperBottom-bottom-small{
+          p {
+            width: 310px;
+            height: 120px;
+            margin: 0 auto;
+          }
+        }
+        .paperBottom-bottom-intro{
+          box-sizing: border-box;
+          padding: 10px 20px;
+          // background: rgba(0,0,0,0.05)
+        }
+        .paperBottom-bottom-intro-item{
+          text-align: left;
+          color:#BEBEBE;
+          padding: 6px 0px;
+          font-size: 14px;
+          &>span{
+            display:inline-block;
+          }
+          &>span:last-child{
+            color:black;
+            width: 200px;
+          }
+          &>span:first-child{
+            width: 70px;
+            // padding-left: 20px;
+          }
+          &:noT(:first-child){
+            border-top: 1px solid #050001;
+          }
+        }
+      }
+      .contactUs-right {
+        margin: 40px 0 0 20px;
+        .right-img {
+          width: 819px;
+          height: 200px;
+          img {
             width: 100%;
-            height: 260px;
-            margin-top: 25px;
-            .aboutUsContent-introImg {
-              width: 420px;
-              height: 260px;
-              margin-right: 30px;
-              float: left;
-              img {
-                width: 100%;
-                height: 100%;
-              }
-            }
-            .aboutUsContent-introWords {
-              width: 400px;
-              height: 260px;
-              font-size: 18px;
-              font-family: MicrosoftYaHei;
-              color: rgba(0,0,0,1);
-              line-height: 38px;
-              float: left;
-            }
-          }
-          .aboutUsContent-bottom {
-            width: 100%;
-            height: 50px;
-            clear: both;
-            background:rgba(31,31,31,1);
-          }
-          .aboutUsContent-bottom1 {
-            width: 30px;
-            height: 60px;
-            float: right;
-            margin-top: -48px;
-            background:rgba(31,31,31,1);
+            height: 100%;
           }
         }
       }
     }
   }
+}
 </style>
 

@@ -1,6 +1,6 @@
 <template>
 	<div class="boxWrap">
-	    <paper>
+	<paper>
 	    	<comTitle>
 				<div class="flex-r" style="flex-wrap: wrap;justify-content: space-between;">
 					<div class="list-item">
@@ -41,7 +41,7 @@
 					</div>
 				</div>
 	    	</comTitle>
-	    </paper>
+	</paper>
 	</div>
 </template>
 

@@ -16,7 +16,6 @@
 					<span>{{item.name}}</span>
 					<i class="el-icon-arrow-right icons"></i>
 				</div>
-				
 				<div class="paperBottom-bottom">
 					<div class="paperBottom-bottom-title">
 						联系我们
@@ -52,11 +51,9 @@
 					</div>
 				</div>
 			</div>
-			
 			<div  class="paperBottom-right">
 				<slot></slot>
 			</div>
-			
 		</div>
 	</div>
 </template>
@@ -70,17 +67,17 @@
 			}
 		},
 		computed:{
-			"route":function(){
+			"route": function() {
 //				console.log(this.$route.matched)
 				return this.$route.matched;
 			},
-			"childRoute":function(){
-				let arr=this.$router.options.routes;
-				let k=[]
-				arr.map((item)=>{
-					if(item.path==this.route[0].path){
+			"childRoute": function() {
+				let arr = this.$router.options.routes;
+				let k = []
+				arr.map((item) => {
+					if(item.path == this.route[0].path) {
 					
-						k= item.children
+						k = item.children
 					}
 				})
 				return k
@@ -119,7 +116,7 @@
 		padding-bottom: 3px;
 	}
 }
-@width:350px;
+@width: 350px;
 .paperBottom{
 	margin-top: 40px;
 	.paperBottom-left{
