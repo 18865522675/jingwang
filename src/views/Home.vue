@@ -172,19 +172,23 @@ export default {
 .el-tabs__item:hover {
   background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
 }
-.home {
-  width: 100%;
-  padding-bottom: 100px;
-  .el-carousel {
+
+  .el-carousel__item {
     .imgWrap {
       width: 100%;
-      height: 300px;
+      height: 300px!important;
       img {
         width: 100%;
-        height: 100%;
+        height: 300px!important;
+        display: block;
       }
     }
   }
+  
+  
+.home {
+  width: 100%;
+  padding-bottom: 100px;
   .content {
     width: 1200px;
     // height: 1000px;
