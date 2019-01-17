@@ -32,7 +32,8 @@
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <div class="bottom">
+    <router-view style="margin: 0 auto;width: 1200px;padding-bottom: 150px;"/>
+        <div class="bottom">
       <ul>
         <li>
           <!-- <router-link to=""> -->
@@ -76,8 +77,7 @@
         </li>
       </ul>
       <div>Copyright © 2018 焦点科技. 版权所有</div>
-    </div>
-    <router-view style="margin: 0 auto;width: 1200px;"/>
+    </div>	
   </div>
 </template>
 <script>

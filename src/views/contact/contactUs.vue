@@ -36,7 +36,7 @@
 				console.log(BMap)
 				   var map = new BMap.Map("allmap");
 				    //创建坐标点
-				    var point = new BMap.Point(116.404,39.915);
+				    var point = new BMap.Point(119.725914,29.956067);
 				    //初始化实例，传入坐标点并设置地图级别
 				    map.centerAndZoom(point,15);
 				    map.enableScrollWheelZoom(true);
