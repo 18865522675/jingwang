@@ -94,6 +94,9 @@
 
 <style lang="less">
 @w350:350px;
+.paperWrap {
+  margin-top: 50px;
+}
 .paperTop{
 	width: 1200px;
 	box-sizing: border-box;
