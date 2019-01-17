@@ -1,7 +1,7 @@
 <template>
 	<div class="boxWrap">
 	<paper>
-	    	<comTitle>
+	<comTitle>
 				<div class="flex-r" style="flex-wrap: wrap;justify-content: space-between;">
 					<div class="list-item">
 						<img src="../../assets/img/bianyaxiifu1.png" style="display: block;" alt="" />
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-	    	</comTitle>
+	</comTitle>
 	</paper>
 	</div>
 </template>

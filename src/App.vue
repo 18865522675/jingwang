@@ -104,7 +104,7 @@ export default {
 </script>
 
 <style lang="less">
-	 @import "./assets/css/main.less";
+@import "./assets/css/main.less";
 .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
   background: #FF852C!important;
 }
@@ -219,5 +219,8 @@ body {
 	.bannerImg{
 		width: 100%;
 		height: 100%;
-	}
+  }
+  .el-tabs--left .el-tabs__active-bar.is-left, .el-tabs--left .el-tabs__nav-wrap.is-left::after {
+    left: -50px!important;
+  }
 </style>

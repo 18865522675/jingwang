@@ -133,11 +133,11 @@ export default {
   },
   mounted(){
     this.$nextTick(()=>{
-      console.log(BMap)
           var map = new BMap.Map("allmap");
           //创建坐标点
           var point = new BMap.Point(116.404,39.915);
           //初始化实例，传入坐标点并设置地图级别
+          console.log(BMap)
           map.centerAndZoom(point,15);
           map.enableScrollWheelZoom(true);
     })			
@@ -227,10 +227,10 @@ export default {
         top: -100px;
       }
       .displayBottom2 {
-        width: 70%;
+        width: 73%;
         height: 30px;
         top: -130px;
-        left: 249px;
+        left: 250px;
       }
     }
     .craft {
@@ -248,7 +248,7 @@ export default {
           width: 100%;
           margin-top: 20px;
           .craftContent-wrap {
-            width: 376px;
+            width: 355px;
             float: left;
             margin-left: 20px;
             .craftContent-imgSize {
@@ -269,7 +269,7 @@ export default {
               line-height: 27px;
             }
             .el-button {
-              width: 376px;
+              width: 355px;
               height: 35px;
               margin-top: 20px;
               line-height: 2px;
