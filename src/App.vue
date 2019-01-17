@@ -76,7 +76,7 @@
           <!-- </router-link> -->
         </li>
       </ul>
-      <div>Copyright © 2018 焦点科技. 版权所有</div>
+      <!--<div>Copyright © 2018 焦点科技. 版权所有</div>-->
     </div>	
   </div>
 </template>
