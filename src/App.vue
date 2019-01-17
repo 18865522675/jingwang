@@ -32,7 +32,7 @@
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <router-view style="margin: 0 auto;width: 1200px;padding-bottom: 150px;"/>
+    <router-view style="margin: 50px auto;width: 1200px;padding-bottom: 150px;"/>
         <div class="bottom">
       <ul>
         <li>

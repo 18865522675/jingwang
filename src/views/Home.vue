@@ -5,7 +5,7 @@
         <div class="displayNav">
           <div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>
           <el-tabs tab-position="left">
-            <el-tab-pane label="制氮">
+            <el-tab-pane class="red" :class="['']" label="制氮">
               <div class="nitBg nitBg1">
                 <img src="../assets/img/JWN@2x.png" alt="">
               </div>
@@ -149,8 +149,28 @@ export default {
 .el-tabs__nav-wrap:after {
   // background: none!important;
 }
+
+.el-menu--horizontal {
+  .el-menu--popup-bottom-start {
+    margin: 0!important;
+    // width: 200px!important;
+    .el-menu-item {
+      // width: 200px!important;
+    }
+  }
+}
 .el-tabs__active-bar {
   opacity: 0;
+}
+.el-tabs__item {
+  width: 100%;
+  height: 56px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.el-tabs__item:hover {
+  background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
 }
 .home {
   width: 100%;
