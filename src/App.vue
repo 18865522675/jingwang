@@ -12,11 +12,11 @@
         <el-col class="nav" :span="24" style="width: 100%;">
         <div style="width: 1200px; margin: 0 auto;">
           <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
-            <template v-for="(item, index) in $router.options.routes">
+            <template v-for="(item, index) in $router.options.routes" v-if="!item.hidden">
               <el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
               <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
                 <template slot="title">{{item.name}}</template>
-                <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path">{{child.name}}</el-menu-item>
+                <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path" v-if="!child.hidden">{{child.name}}</el-menu-item>
                 <el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path"><i :class="item.iconCls"></i>{{item.children[0].name}}</el-menu-item>
               </el-submenu>
             </template>
@@ -32,52 +32,36 @@
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <router-view style="margin: 50px auto;width: 1200px;padding-bottom: 150px;"/>
-        <div class="bottom">
-      <ul>
-        <li>
-          <!-- <router-link to=""> -->
+    <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;"/>
+      <!-- <div class="bottom">
+        <ul>
+          <li>
             <span>关于我们 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>联系我们 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>客服中心 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>隐私策略 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>会员协议 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>法律声明 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>繁体站 丨</span>
-          <!-- </router-link> -->
-        </li>
-        <li>
-          <!-- <router-link> -->
+          </li>
+          <li>
             <span>友情链接 </span>
-          <!-- </router-link> -->
-        </li>
-      </ul>
+          </li>
+        </ul>
       <div>Copyright © 2018 焦点科技. 版权所有</div>
-    </div>	
+    </div>	 -->
   </div>
 </template>
 <script>
@@ -111,6 +95,57 @@ export default {
 .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
   color: #fff!important;
 }
+.productDetails-contentLeft {
+  width: 350px;
+  // height: 1000px;
+  margin-right: 45px;
+  float: left;
+}
+.productDetails-contentright{
+  width: 800px;
+  height: 1000px;
+  padding-top: 5px;
+  float: left;
+}
+// 联系我们
+.paperBottom-bottom{
+		margin-top: 40px;
+		.paperBottom-bottom-title{
+			font-size:19px;
+			font-family:MicrosoftYaHei;
+			font-weight:bold;
+			color:rgba(51,51,51,1);
+		}
+		.paperBottom-bottom-small{
+			color:gray;
+			font-size: 13px;
+		}
+		.paperBottom-bottom-intro{
+			box-sizing: border-box;
+			padding: 10px 20px;
+			background: rgba(0,0,0,0.05),
+		}
+		.paperBottom-bottom-intro-item{
+			text-align: left;
+			color:#BEBEBE;
+			padding: 6px 0px;
+			font-size: 14px;
+			&>span{
+				display:inline-block;
+			}
+			&>span:last-child{
+				color:black;
+				width: 200px;
+			}
+			&>span:first-child{
+				width: 70px;
+				padding-left: 20px;
+			}
+			&:noT(:first-child){
+				border-top: 1px solid #050001;
+			}
+		}
+	}
 @font-face {
   font-family: yuweij;
   src: url('./assets/ywjt.ttf')
