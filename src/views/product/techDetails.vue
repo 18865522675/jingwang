@@ -23,6 +23,40 @@
             <template slot="title">能源煤化工技术</template>
           </el-submenu>
         </el-menu>
+        <div class="paperBottom-bottom">
+					<div class="paperBottom-bottom-title">
+						联系我们
+					</div>
+					<div class="paperBottom-bottom-small" style="margin-top: 5px;">
+						如果有任何问题请及时联系
+					</div>
+					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
+						<div class="paperBottom-bottom-intro-item">
+							<span>联系人 ：</span>
+							<span>丁振兴</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>手 &nbsp;&nbsp;机 ：</span>
+							<span>13606536877</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>传&nbsp;&nbsp; 真 ：</span>
+							<span>0571-63266701</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>邮 &nbsp;&nbsp;箱 ：</span>
+							<span>888888888@qq.com</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>网&nbsp;&nbsp; 址 ：</span>
+							<span>XXXXXXXXXXXXXXXXXX</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
+							<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
+						</div>
+					</div>
+				</div>
       </div>
       <div class="productDetails-contentRight">
         <div class="contentRightContent">
