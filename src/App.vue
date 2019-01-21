@@ -33,7 +33,7 @@
       </el-carousel-item>
     </el-carousel>
     <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;"/>
-      <!-- <div class="bottom">
+      <div class="bottom">
         <ul>
           <li>
             <span>关于我们 丨</span>
@@ -61,7 +61,7 @@
           </li>
         </ul>
       <div>Copyright © 2018 焦点科技. 版权所有</div>
-    </div>	 -->
+    </div>	
   </div>
 </template>
 <script>

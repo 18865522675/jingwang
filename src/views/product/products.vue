@@ -422,7 +422,7 @@
         </div>
       </div>
     </div>
-    <!-- <router-view style=" padding-bottom: 150px;"></router-view> -->
+    <!-- <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;"></router-view> -->
   </div>
 </template>
 

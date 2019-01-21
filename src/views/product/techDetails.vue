@@ -89,7 +89,9 @@
             <div class="theroyExplain top">&nbsp;&nbsp;&nbsp;&nbsp;输出温度：常温</div>
             <div class="theroyExplain top">&nbsp;&nbsp;&nbsp;&nbsp;注： H2收率与原料组成、压力及产品以及产品H2纯度有关。</div>
             <h2>制氮装置部份业绩表</h2>
-            <div class="performanceChart"></div>
+            <div>
+              <img class="performanceChart" src="../../assets/img/gg.png" alt="">
+            </div>
           </article>
         </div>
       </div>
@@ -166,9 +168,9 @@ export default {
           }
           .performanceChart {
             width: 800px;
-            height: 430px;
+            // height: 430px;
             margin: 40px 0 100px 0;
-            border: 1px solid red;
+            // border: 1px solid red;
           }
         }
       }

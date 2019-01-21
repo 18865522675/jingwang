@@ -64,7 +64,9 @@
           </div>
         </article>
         <div class="contentright-explain">“制氮JWN标准型”参数说明</div>
-        <div class="contentright-explainImg"></div>
+        <div>
+          <img class="contentright-explainImg" src="../../assets/img/cssm.png" alt="">
+        </div>
         <div class="contentright-explain">“制氮JWN标准型”详细介绍</div>
         <div class="contentright-dd"> 根据变压吸附原理，采用高品质碳分子筛作为吸附剂，在一定压力下由于动力学效应，氧在碳分子筛微孔中的扩散率远大于氮，在吸附未达到平衡时，
           氧被碳分子筛大量吸附，氧分子在气相中被富集，达到氧氮分离。由于碳分子筛对氧的吸附容量随压力的不同两者有明显的差异，降低压力，即可解吸碳分子筛再生，
@@ -161,9 +163,8 @@ export default {
         .contentright-explainImg {
           .left;
           .width100;
-          height: 300px;
+          // height: 300px;
           margin-top: 30px;
-          border: 1px solid rgba(0,0,0,1);
         }
         .contentright-dd {
           .left;
