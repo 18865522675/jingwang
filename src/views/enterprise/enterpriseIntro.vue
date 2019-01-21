@@ -5,7 +5,7 @@
 				<div class="flex-r" style="flex-wrap: wrap;justify-content: space-between;">
 					<div class="listItem">
 						<div class="imgWrap">
-							<img src="../../assets/img/JWN-A@2x.png" alt="" />
+							<img src="../../assets/img/zizizhuanli.png" alt="" />
 						</div>
 						<div class="name">
 							专利IS09001
@@ -13,7 +13,7 @@
 					</div>
 					<div class="listItem">
 						<div class="imgWrap">
-							<img src="../../assets/img/JWN-A@2x.png" alt="" />
+							<img src="../../assets/img/zizizhuanli2.png" alt="" />
 						</div>
 						<div class="name">
 							专利IS09001
@@ -53,7 +53,7 @@
 		background: rgba(204,204,204,1);
 		text-align: center;
 		img{
-			width: 273px;
+			width: 298px;
 			height: 388px;
 		}
 	}

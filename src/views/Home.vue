@@ -5,15 +5,18 @@
         <div class="displayNav">
           <div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>
           <el-tabs tab-position="left">
-            <el-tab-pane label="制氮">
+            <el-tab-pane class="red" :class="['']" label="制氮">
               <div class="nitBg nitBg1">
-                <img src="../assets/img/JWN@2x.png" alt="">
+                <img src="../assets/切图/chanping.png" alt="">
+                <div>制氮JWN标准型</div>
               </div>
               <div class="nitBg nitBg2">
-                <img src="../assets/img/JWN-A.png" alt="">
+                <img src="../assets/切图/-s-JWN-A.png" alt="">
+                <div>制氮JWN-A型</div>
               </div>
               <div class="nitBg nitBg3">
-                <img src="../assets/img/JWN-B.png" alt="">
+                <img src="../assets/切图/-s-JWN-B.png" alt="">
+                <div>制氮JWN-B型</div>
               </div>
             </el-tab-pane>
             <el-tab-pane label="制氧">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
@@ -34,7 +37,9 @@
           </div>
           <div class="craftContent-img">
             <div class="craftContent-wrap">
-              <div class="craftContent-imgSize"></div>
+              <div class="craftContent-imgSize">
+                <img src="../assets/切图/bianyaxiifu1.png" alt="">
+              </div>
               <h3>环保变压吸附技术</h3>
               <p class="craftContent-intro">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料...</p>
               <el-button>查看更多</el-button>
@@ -42,13 +47,17 @@
               <!-- </div> -->
             </div>
             <div class="craftContent-wrap">
-              <div class="craftContent-imgSize"></div>
+              <div class="craftContent-imgSize">
+                <img src="../assets/切图/cad.png" alt="">
+              </div>
               <h3>CAD新技术广泛应用</h3>
               <p class="craftContent-intro">水泵的模具、叶片和重要零件开始用数控机床加工，从而可以提高泵的制造质量。水泵水力设计与绘型软件逐渐代替人工计算和绘图有人问用...</p>
               <el-button>查看更多</el-button>
             </div>
             <div class="craftContent-wrap">
-              <div class="craftContent-imgSize"></div>
+              <div class="craftContent-imgSize">
+                <img src="../assets/切图/wudusai.png" alt="">
+              </div>
               <h3>无堵塞泵和低比转速泵...</h3>
               <p class="craftContent-intro">我国自行总结出的无堵塞泵设计方法，基本达到实用程度，国内广泛使用。设计方法主要包括：沿流道中线断面变化规律设计双流道叶轮;方格网...</p>
               <el-button>查看更多</el-button>
@@ -77,10 +86,11 @@
 					<div class="paperBottom-bottom-title">
 						联系我们
 					</div>
-					<div class="paperBottom-bottom-small" style="margin-top: 5px;">
-						<p id="allmap" style=""></p>
+					<div class="paperBottom-bottom-small" style="margin-top: 10px;">
+						<!-- <p id="allmap" style=""></p> -->
+            <img src="../assets/切图/-s-lianxiwm.png" alt="">
 					</div>
-					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
+					<div class="paperBottom-bottom-intro" style="margin-top: 10px;">
 						<div class="paperBottom-bottom-intro-item">
 							<span>联系人 ：</span>
 							<span>丁振兴</span>
@@ -108,8 +118,8 @@
 					</div>
 				</div>
         <div class="contactUs-right">
-          <div class="right-img"><img src="../assets/img/jrwm.png" alt=""></div>
-          <div class="right-img"><img src="../assets/img/jsfw.png" alt=""></div>
+          <div class="right-img"><img src="../assets/切图/jiaruwomen.png" alt=""></div>
+          <div class="right-img" style="margin-top: 10px"><img src="../assets/切图/jishufuwu.png" alt=""></div>
         </div>
       </div>
     </article>
@@ -132,15 +142,15 @@ export default {
     }
   },
   mounted(){
-    this.$nextTick(()=>{
-          var map = new BMap.Map("allmap");
-          //创建坐标点
-          var point = new BMap.Point(119.725914,29.956067);
-          //初始化实例，传入坐标点并设置地图级别
-          console.log(BMap)
-          map.centerAndZoom(point,15);
-          map.enableScrollWheelZoom(true);
-    })			
+    // this.$nextTick(()=>{
+    //       var map = new BMap.Map("allmap");
+    //       //创建坐标点
+    //       var point = new BMap.Point(119.725914,29.956067);
+    //       //初始化实例，传入坐标点并设置地图级别
+    //       console.log(BMap)
+    //       map.centerAndZoom(point,15);
+    //       map.enableScrollWheelZoom(true);
+    // })			
   },
 }
 </script>
@@ -149,22 +159,46 @@ export default {
 .el-tabs__nav-wrap:after {
   // background: none!important;
 }
+
+.el-menu--horizontal {
+  .el-menu--popup-bottom-start {
+    margin: 0!important;
+    // width: 200px!important;
+    .el-menu-item {
+      // width: 200px!important;
+    }
+  }
+}
 .el-tabs__active-bar {
   opacity: 0;
 }
-.home {
+.el-tabs__item {
   width: 100%;
-  padding-bottom: 100px;
-  .el-carousel {
+  height: 56px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.el-tabs__item:hover {
+  background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
+}
+
+  .el-carousel__item {
     .imgWrap {
       width: 100%;
-      height: 300px;
+      height: 300px!important;
       img {
         width: 100%;
-        height: 100%;
+        height: 300px!important;
+        display: block;
       }
     }
   }
+  
+  
+.home {
+  width: 100%;
+  padding-bottom: 100px;
   .content {
     width: 1200px;
     // height: 1000px;
@@ -193,16 +227,30 @@ export default {
           // width: 600px;
           height: 300px;
           margin-top: -40px;
-          padding-top: 50px;
-          left: 38%;
+          padding-top: 25px;
+          left: 34%;
           position: absolute;
           overflow: visible!important;
           .nitBg {
             // height: 230px;
+            width: 230px;
+            margin-right: 70px;
             float: left;
             img {
-              width: 230px;
+              width: 100%;
               height: 230px;
+            }
+            div {
+              width: 100%;
+              height: 40px;
+              margin-top: 20px;
+              font-size: 18px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(51,51,51,1);
+              border-left: 1px solid rgba(153,153,153,1);
+              border-bottom: 1px solid rgba(153,153,153,1);
+              border-right: 1px solid rgba(153,153,153,1);
             }
           }
         }
@@ -255,6 +303,10 @@ export default {
               width: 100%;
               height: 247px;
               background: red;
+              img {
+                width: 100%;
+                height: 100%;
+              }
             }
             h3 {
               margin-top: 15px;
@@ -351,11 +403,11 @@ export default {
           color:rgba(51,51,51,1);
         }
         .paperBottom-bottom-small{
-          p {
-            width: 310px;
-            height: 120px;
-            margin: 0 auto;
-          }
+          // p {
+          //   width: 310px;
+          //   height: 120px;
+          //   margin: 0 auto;
+          // }
         }
         .paperBottom-bottom-intro{
           box-sizing: border-box;

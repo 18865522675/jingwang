@@ -4,7 +4,7 @@
 	<comTitle>
 				<div class="flex-r" style="flex-wrap: wrap;justify-content: space-between;">
 					<div class="list-item">
-						<img src="../../assets/img/bianyaxiifu1.png" style="display: block;" alt="" />
+						<img src="../../assets/img/byxf.png" style="display: block;" alt="" />
 						<div class="title">
 							工程名称
 						</div>
@@ -13,7 +13,7 @@
 						</div>
 					</div>
 					<div class="list-item">
-						<img src="../../assets/img/bianyaxiifu1.png" style="display: block;" alt="" />
+						<img src="../../assets/img/byxf.png" style="display: block;" alt="" />
 						<div class="title">
 							工程名称
 						</div>
@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="list-item">
-						<img src="../../assets/img/bianyaxiifu1.png" style="display: block;" alt="" />
+						<img src="../../assets/img/byxf.png" style="display: block;" alt="" />
 						<div class="title">
 							工程名称
 						</div>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 					<div class="list-item">
-						<img src="../../assets/img/bianyaxiifu1.png" style="display: block;" alt="" />
+						<img src="../../assets/img/byxf.png" style="display: block;" alt="" />
 						<div class="title">
 							工程名称
 						</div>

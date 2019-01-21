@@ -17,7 +17,7 @@ export default new Router({
     {
       path: '/jw',
       name: '走进京旺',
-      component:commonModule,
+      component: commonModule,
       redirect:"/company",
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
@@ -31,13 +31,19 @@ export default new Router({
     {
       path: '/products',
       name: '产品与技术',
-      component: () => import('./views/product/products.vue')
+      component: commonModule,  // () => import('./views/product/products.vue')
+      redirect: '/products',
+      children: [
+        {path: '/products', name: '产品与技术', component: () => import('./views/product/products.vue')},
+        {path: '/productDetails', name: '制氮', component: () => import('./views/product/productDetails.vue'), hidden: true},
+        {path: '/techDetails', name: '变压吸附提纯氢气技术详情', component: () => import('./views/product/techDetails.vue'), hidden: true}
+      ]
     },
     {
       path: '/qiye',
       name: '企业信息',
-       component:commonModule,
-      redirect:"/enterpriseIntro",
+      component: commonModule,
+      redirect: "/enterpriseIntro",
       // route level code-splitting contactUs
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -46,8 +52,8 @@ export default new Router({
     {
       path: '/contact',
       name: '联系我们',
-      component:commonModule,
-      redirect:"/contactUs",
+      component: commonModule,
+      redirect: "/contactUs",
       // route level code-splitting 
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
