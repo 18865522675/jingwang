@@ -10,7 +10,7 @@
         </el-breadcrumb>
       </div>
     </div>
-    <div class="techDetails-content">
+    <div class="techDetails-content clear">
       <div class="productDetails-contentLeft">
         <el-menu class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose">
           <el-submenu index="1">
@@ -59,7 +59,7 @@
 				</div>
       </div>
       <div class="productDetails-contentRight">
-        <div class="contentRightContent">
+        <div class="contentRightContent clear">
           <h3>变压吸附提纯氢气技术</h3>
           <article class="contentRightWrap">
             <h2>工艺原理</h2>
@@ -88,7 +88,7 @@
             <div class="theroyExplain top">&nbsp;&nbsp;&nbsp;&nbsp;系统阻力降△P：0.05~0.1MPa</div>
             <div class="theroyExplain top">&nbsp;&nbsp;&nbsp;&nbsp;输出温度：常温</div>
             <div class="theroyExplain top">&nbsp;&nbsp;&nbsp;&nbsp;注： H2收率与原料组成、压力及产品以及产品H2纯度有关。</div>
-            <h2>制氮装置部份业绩表</h2>
+            <h2 >制氮装置部份业绩表</h2>
             <div>
               <img class="performanceChart" src="../../assets/img/gg.png" alt="">
             </div>
@@ -126,6 +126,11 @@ export default {
 .top {
   margin-top: 10px;
 }
+.clear:after{
+	display: block;
+	content: "\20";
+	clear: both;
+}
 .el-dropdown-menu__item--divided:before,
 .el-menu, .el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, 
 .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover,
@@ -139,6 +144,7 @@ export default {
   color: #fff!important;
 }
   .techDetails {
+    height: 1650px;
     .productDetails-contentLeft {
       margin-top: 30px;
       .techDetails-content {
