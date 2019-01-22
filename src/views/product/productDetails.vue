@@ -1,5 +1,5 @@
 <template>
-  <article class="productDetails">
+  <article class="productDetails" style="padding-bottom: 300px;">
     <div class="paperTop flex-r">
       <div class="headerTitle">{{route[0].name}}</div>
       <div class="bread">
@@ -10,7 +10,7 @@
         </el-breadcrumb>
       </div>
     </div>
-    <div class="productDetails-content">
+    <div class="productDetails-content clear">
       <div class="productDetails-contentLeft">
         <div class="contentLeft-btn">制氮</div>
         <div class="paperBottom-bottom">
@@ -48,7 +48,7 @@
 					</div>
 				</div>
       </div>
-      <div class="productDetails-contentright">
+      <div class="productDetails-contentright clear">
         <h3>制氮</h3>
         <article>
           <div class="contentright-img">
@@ -67,8 +67,8 @@
         <div>
           <img class="contentright-explainImg" src="../../assets/img/cssm.png" alt="">
         </div>
-        <div class="contentright-explain">“制氮JWN标准型”详细介绍</div>
-        <div class="contentright-dd"> 根据变压吸附原理，采用高品质碳分子筛作为吸附剂，在一定压力下由于动力学效应，氧在碳分子筛微孔中的扩散率远大于氮，在吸附未达到平衡时，
+        <div class="contentright-explain clear">“制氮JWN标准型”详细介绍</div>
+        <div class="contentright-dd clear"> 根据变压吸附原理，采用高品质碳分子筛作为吸附剂，在一定压力下由于动力学效应，氧在碳分子筛微孔中的扩散率远大于氮，在吸附未达到平衡时，
           氧被碳分子筛大量吸附，氧分子在气相中被富集，达到氧氮分离。由于碳分子筛对氧的吸附容量随压力的不同两者有明显的差异，降低压力，即可解吸碳分子筛再生，
           得以重复循环使用。采用两个吸附塔流程，一塔吸附产氮，一塔解吸再生，通过PLC智能程序控制气动角座阀的启闭，使两塔循环交替，连续产出高品质氮气。 
           <!-- 氮气产量：5-3000Nm³/h 氮气纯度：95-99.998% 氮气压力：0-0.8Mpa（可提供0.1-0.8Mpa） 露点：≤-45°（常压） -->
@@ -99,6 +99,11 @@ export default {
 .width100 {
   width: 100%;
 }
+.clear:after{
+	display: block;
+	content: "\20";
+	clear: both;
+}
   .productDetails {
     .productDetails-content {
       margin-top: 30px;
@@ -106,7 +111,7 @@ export default {
         width: 350px;
         // height: 1000px;
         margin-right: 45px;
-        .left;
+        /*.left;*/
         .contentLeft-btn {
           .width100;
           height: 65px;
@@ -123,7 +128,7 @@ export default {
         height: 1000px;
         padding-top: 5px;
         // border: 1px solid red;
-        .left;
+        /*.left;*/
         h3 {
           text-align: left;
         }
@@ -133,7 +138,7 @@ export default {
           border-top: 1px solid #333333;
           .contentright-img {
             display: inline-block;
-            .left;
+            /*.left;*/
               .contentright-intro {
                 padding-left: 70px;
                 float: right;
@@ -151,7 +156,7 @@ export default {
           .width100;
           height: 45px;
           line-height: 45px;
-          .left;
+          /*.left;*/
           margin-top: 50px;
           text-align: left;
           font-size: 26px;
@@ -161,13 +166,13 @@ export default {
           color: rgba(255,254,254,1);
         }
         .contentright-explainImg {
-          .left;
+          /*.left;*/
           .width100;
           // height: 300px;
           margin-top: 30px;
         }
         .contentright-dd {
-          .left;
+          /*.left;*/
           .width100;
           margin: 30px 0 100px 0;
           text-align: left;

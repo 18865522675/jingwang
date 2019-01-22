@@ -21,7 +21,7 @@
                   <img src="../../assets/切图/chanping.png" alt="">
                 </div>
                 <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
+                <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button @click="$router.push('/productDetails')" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
@@ -31,7 +31,7 @@
                   <img src="../../assets/切图/-s-JWN-A.png" alt="">
                 </div>
                 <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
+                <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <!-- <router-link to="/productDetails"> -->
                     <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -43,7 +43,7 @@
                   <img src="../../assets/切图/-s-JWN-B.png" alt="">
                 </div>
                 <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
+                <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
@@ -53,7 +53,7 @@
                   <img src="../../assets/切图/-s-JWN-C.png" alt="">
                 </div>
                 <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
+                <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>

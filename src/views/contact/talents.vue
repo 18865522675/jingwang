@@ -2,12 +2,9 @@
 	<div class="boxWrap">
 	    <paper>
 	    	<comTitle>
-	    		<div class="wordTitle">
-	    			招聘岗位
-	    		</div>
-	    		<div>
-	    			<img src="../../assets/img/jianjie1.jpg" style="width: 100%;margin-top: 10px;" alt="" />
-	    			<img src="../../assets/img/jianjie2.png" style="width: 100%;margin-top: 10px;"  alt="" />
+	    		<div style="padding-top: 30px;">
+	    			<img src="../../assets/img/talents.png" style="width: 100%;margin-top: 10px;" alt="" />
+	    			<!--<img src="../../assets/img/jianjie2.png" style="width: 100%;margin-top: 10px;"  alt="" />-->
 	    		</div>
 	    		<div class="contactPeople">
 	    			<div>

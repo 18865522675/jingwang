@@ -25,14 +25,14 @@
         </el-col>
       </el-row>
     </div>
-    <el-carousel :interval="5000" arrow="always" height="300px">
+    <el-carousel :interval="5000" arrow="always" height="500px">
       <el-carousel-item v-for="(item, index) in imgList" :key="index">
-        <el-row class="imgWrap">
-          <el-col :span="24"><img ref="" class="bannerImg" :src="item.imgUrls"/></el-col>
+        <el-row class="imgWrap" style="height: 500px!important;">
+          <el-col :span="24"  style="height: 500px!important;"><img ref="" class="bannerImg" :src="item.imgUrls" style="height: 500px!important;"/></el-col>
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;"/>
+    <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;margin-bottom: 0px!important;"/>
       <div class="bottom">
         <ul>
           <li>
@@ -215,7 +215,7 @@ body {
   padding-top: 30px; 
   box-sizing: border-box;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   background:rgba(31,31,31,1);
   ul {
     width: 60%;
