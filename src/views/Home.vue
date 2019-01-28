@@ -41,7 +41,7 @@
                 <img src="../assets/切图/bianyaxiifu1.png" alt="">
               </div>
               <h3>环保变压吸附技术</h3>
-              <p class="craftContent-intro">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料...</p>
+              <div class="craftContent-intro">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料...</div>
               <el-button>查看更多</el-button>
               <!-- <div> -->
               <!-- </div> -->
@@ -59,7 +59,7 @@
                 <img src="../assets/切图/wudusai.png" alt="">
               </div>
               <h3>无堵塞泵和低比转速泵...</h3>
-              <p class="craftContent-intro">我国自行总结出的无堵塞泵设计方法，基本达到实用程度，国内广泛使用。设计方法主要包括：沿流道中线断面变化规律设计双流道叶轮;方格网...</p>
+              <p class="craftContent-intro">我国自行总结出的无堵塞泵设计方法，基本达到实用程度，国内广泛使用。设计方法主要包括：沿流道中线断面变化规律设计双流道叶轮;方格...</p>
               <el-button>查看更多</el-button>
             </div>
           </div>
@@ -118,8 +118,8 @@
 					</div>
 				</div>
         <div class="contactUs-right">
-          <div class="right-img"><img src="../assets/切图/jiaruwomen.png" alt=""></div>
-          <div class="right-img" style="margin-top: 10px"><img src="../assets/切图/jishufuwu.png" alt=""></div>
+          <div class="right-img"  @click="$router.push('/talents')" style="cursor: pointer;"><img src="../assets/切图/jiaruwomen.png" alt=""></div>
+          <div class="right-img" style="margin-top: 10px;cursor: pointer;"   @click="$router.push('/technicalServer')"><img src="../assets/切图/jishufuwu.png" alt=""></div>
         </div>
       </div>
     </article>
@@ -156,6 +156,9 @@ export default {
 </script>
 
 <style lang="less">
+	.curP{
+		cursor: pointer;
+	}
 .el-tabs__nav-wrap:after {
   // background: none!important;
 }
@@ -228,7 +231,7 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-          left: 34%;
+          left: 30%;
           position: absolute;
           overflow: visible!important;
           .nitBg {

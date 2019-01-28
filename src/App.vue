@@ -4,7 +4,7 @@
       <el-row>
         <el-col class="top">
           <div class="">
-            <div class="topTitle">杭州京旺科技有限公司</div>
+            <div class="topTitle">杭&nbsp;州&nbsp;京&nbsp;&nbsp;旺&nbsp;科&nbsp;技&nbsp;有&nbsp;限&nbsp;公&nbsp;&nbsp;司</div>
             <div class="topTitle1">HANG&nbsp;&nbsp;ZHOU&nbsp;&nbsp;JING&nbsp;&nbsp;WANG&nbsp;&nbsp;KE&nbsp;&nbsp;JI&nbsp;&nbsp;YOU&nbsp;&nbsp;XIAN&nbsp;&nbsp;GONG&nbsp;&nbsp;SI</div>
           </div>
           <div class="topTitle2">以诚信和质量为宗旨</div>
@@ -28,14 +28,20 @@
     <el-carousel :interval="5000" arrow="always" height="500px">
       <el-carousel-item v-for="(item, index) in imgList" :key="index">
         <el-row class="imgWrap" style="height: 500px!important;">
-          <el-col :span="24"  style="height: 500px!important;"><img ref="" class="bannerImg" :src="item.imgUrls" style="height: 500px!important;"/></el-col>
+          <el-col :span="24"  style="height: 500px!important;">
+          	<!--<div class="imgBgDiv" :style="{'backgroundImage':'url('+item.imgUrls+')'+}">
+          		
+          	</div>-->
+          	     <img ref="" class="bannerImg" :src="item.imgUrls" style="height: 500px!important;"/>
+          </el-col>
+          <!--<img ref="" class="bannerImg" :src="item.imgUrls" style="height: 500px!important;"/>-->
         </el-row>
       </el-carousel-item>
     </el-carousel>
     <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;margin-bottom: 0px!important;"/>
       <div class="bottom">
         <ul>
-          <li>
+          <li @click="$router.push('/company')">
             <span>关于我们 丨</span>
           </li>
           <li>
@@ -60,7 +66,7 @@
             <span>友情链接 </span>
           </li>
         </ul>
-      <div>Copyright © 2018 焦点科技. 版权所有</div>
+      <!--<div>Copyright © 2018 焦点科技  版权所有</div>-->
     </div>	
   </div>
 </template>
@@ -261,4 +267,23 @@ body {
   .el-menu--popup-bottom-start{
   	margin-top:0!important
   }
+  .imgBgDiv{
+  	height:100%;
+  	background-size: 100% 100%;
+  	background-position: center center;
+  	/*background: red;*/
+  }
+  .el-icon-arrow-down{
+  	color:white!important;
+  	font-size: 14px!important;
+  	font-weight: bold!important;
+  }
+  .el-menu-item{
+  	text-align: center!important;
+  	  }
+  	  .el-menu--popup{
+  	  	.el-menu-item{
+  	  		width: 233px!important;
+  	  	}
+  	  }
 </style>
