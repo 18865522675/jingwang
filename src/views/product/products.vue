@@ -296,8 +296,6 @@
             </article>
           </div>
         </el-tab-pane>
-      </el-tabs>
-      <el-tabs tab-position="left" >
         <el-tab-pane label="环保变压吸附技术">
           <div class="left-content">
             <h3>环保变压吸附技术</h3>
@@ -347,7 +345,7 @@
             <article>
               <div class="technology-details">
                 <div>
-                  <img src="../../assets/img/byxf.png" alt="">
+                  <img src="../../assets/切图/xifutichu.png" alt="">
                 </div>
                 <div class="technology-details-intro" style="">
                   <h3 style="">变压吸附提纯氢气技术</h3>
@@ -359,7 +357,7 @@
               </div>
               <div class="technology-details">
                 <div>
-                  <img src="../../assets/img/byxf.png" alt="">
+                  <img src="../../assets/切图/-s-jinghuanongsuo.png" alt="">
                 </div>
                 <div class="technology-details-intro" style="">
                   <h3 style="">变压吸附提纯氢气技术</h3>
@@ -371,7 +369,7 @@
               </div>
               <div class="technology-details">
                 <div>
-                  <img src="../../assets/img/byxf.png" alt="">
+                  <img src="../../assets/切图/-s-xifutichun.png" alt="">
                 </div>
                 <div class="technology-details-intro" style="">
                   <h3 style="">变压吸附提纯氢气技术</h3>
@@ -384,6 +382,8 @@
             </article>
           </div>
         </el-tab-pane>
+      </el-tabs>
+      <el-tabs tab-position="left" >
       </el-tabs>
       <div class="contactUs">
         <div class="paperBottom-bottom">
@@ -494,7 +494,6 @@ export default {
           width: 100%;
           .left-content {
             h3 {
-              margin-top: 10px;
               text-align: left;
             }
             article {
@@ -528,6 +527,7 @@ export default {
                 div {
                   width: 365px;
                   // height: 240px;
+                  text-align: left;
                   float: left;
                   img {
                     // width: 100%;
@@ -535,8 +535,9 @@ export default {
                   }
                 }
                 .technology-details-intro {
-                  width: 300px;
-                  margin: 6px 0 0 60px;
+                  width: 365px;
+                  margin-left: 10px;
+                  // margin: 6px 0 0 0;
                 }
               }
             }
@@ -549,7 +550,7 @@ export default {
   .contactUs {
       width: 350px;
       position: relative;
-      top: -1400px;
+      top: -470px;
     }
 }
 

@@ -202,7 +202,6 @@ export default {
     }
   }
   
-  
 .home {
   width: 100%;
   padding-bottom: 100px;
@@ -235,11 +234,7 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-<<<<<<< HEAD
           left: 40%;
-=======
-          left: 30%;
->>>>>>> 4a20b7850f7e38c44ee6a82e0f43dee657fb2887
           position: absolute;
           overflow: visible!important;
           .nitBg {
