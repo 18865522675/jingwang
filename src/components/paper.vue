@@ -94,6 +94,9 @@
 
 <style lang="less">
 @w350:350px;
+.paperBottom-left-item:focus, .paperBottom-left-item:hover {
+  background: #FF852C!important;
+}
 .paperWrap {
   margin-top: 50px;
 }

@@ -169,6 +169,10 @@ export default {
     }
   }
 }
+.el-tabs__item:focus, .el-tabs__item:hover {
+  background: #FF852C;
+}
+
 .el-tabs__active-bar {
   opacity: 0;
 }
@@ -207,7 +211,7 @@ export default {
     /*border: 1px solid red;*/
     .productDisplay {
       .displayNav {
-        width: 225px;
+        width: 350px;
         height: 400px;
         padding-top: 15px;
         position: static;
@@ -228,13 +232,13 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-          left: 34%;
+          left: 40%;
           position: absolute;
           overflow: visible!important;
           .nitBg {
             // height: 230px;
-            width: 230px;
-            margin-right: 70px;
+            width: 210px;
+            margin-right: 42px;
             float: left;
             img {
               width: 100%;
@@ -275,10 +279,10 @@ export default {
         top: -100px;
       }
       .displayBottom2 {
-        width: 73%;
+        width: 62.5%;
         height: 30px;
         top: -130px;
-        left: 250px;
+        left: 375px;
       }
     }
     .craft {
