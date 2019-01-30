@@ -21,9 +21,9 @@
           </el-submenu>
           <el-submenu index="2">
             <template slot="title">能源煤化工技术</template>
-            <el-menu-item @click="techDetail(4)" index="2-1">变压吸附提纯氢气技术</el-menu-item>
-            <!-- <el-menu-item @click="techDetail(1)" index="2-1">变压吸附提纯氢气技术</el-menu-item>
-            <el-menu-item @click="techDetail(1)" index="2-1">变压吸附提纯氢气技术</el-menu-item> -->
+            <el-menu-item @click="techDetail(4)" index="2-1">天然气制氢技术</el-menu-item>
+            <el-menu-item @click="techDetail(5)" index="2-2">焦炉气制CNG/LNG技术</el-menu-item>
+            <el-menu-item @click="techDetail(6)" index="2-3">甲醇裂解制氢技术</el-menu-item>
           </el-submenu>
         </el-menu>
         <div class="paperBottom-bottom">
@@ -199,6 +199,65 @@
           </article>
         </div>
       </div>
+      <div class="productDetails-contentRight" v-if="techDetail5">
+        <div class="contentRightContent clear">
+          <h3>焦炉气制CNG/LNG技术</h3>
+          <article class="contentRightWrap">
+            <h2>工艺原理</h2>
+            <div class="theroyExplain" style="margin-top: 20px;">
+                 焦炉气是煤焦化过程副产的可燃性气体，主要成分是H2（50%～59%）、CH4（21%～28%）、CO（6%～12%）、CO2（2%～5%）、N2（2%～5%）以及微量氧、苯、萘、氨、焦油、硫化物、氰化物等等。
+                 目前焦炉气经过净化处理之后有多种利用方式：工业与民用燃料（加热和发电）、还原剂（直接还原炼铁）、化工原料（主要用于合成氨和生产甲醇）、制氢等。
+            </div>
+            <div class="theroyExplain">
+              以焦炉气为原料制取天然气，为得到合格的产品（SNG/CNG/LNG）,在生产过程中，CO2的含量必须降低到规定值以下，以保证产品质量或装置稳定运行的要求，可以通过甲烷化反应、
+              气体分离技术（如PSA）或二者的组合来实现脱除CO2同时浓缩CH4的目的。采用甲烷化的方法，不但可以降低气体中的碳氧化物，还增加了CH4含量，获得更多需要的产品。
+            </div>
+            <div class="theroyExplain">
+               焦炉气通过净化脱除苯、萘、硫化物等杂质后，在催化剂作用下进行甲烷化反应，将CO、CO2与H2转化成主要含CH4、H2、N2的富甲烷气；
+               采用气体分离技术将富甲烷气中的H2分离制得浓度CH4含量在85%以上的合成天然气（SNG）；SNG可通过进一步处理、压缩后得到压缩天然气（CNG）；也可将富甲烷气进一步液化得到液化天然气（LNG）。
+            </div>
+            <h2>特点及优势</h2>
+            <div class="theroyExplain" style="margin-top: 20px;"> 1. 焦炉气的净化采用具有专利权的“TSA”净化技术，成熟、可靠。</div>
+            <div class="theroyExplain top"> 2. 甲烷化采用具有专利技术的“有循环外移热多段甲烷化”工艺技术，流程简单、设备易于制造、节省投资、操作稳定、节约能量。 </div>
+            <div class="theroyExplain top">3. 甲烷化催化剂具有：耐高温（800℃）、活性高、选择性好、耐毒物性能强、氧脱除能力好、质量可靠。 </div>
+            <h2>装置规模</h2>
+            <div class="theroyExplain top" style="margin-top: 20px;">产品SNG：5000 ~ 100000Nm3/h （焦炉气处理量）</div>
+            <div class="theroyExplain top">2. 产品CNG：5000 ~ 100000Nm3/h （焦炉气处理量）</div>
+            <div class="theroyExplain top">3. 产品LNG：5000 ~ 100000Nm3/h （焦炉气处理量）</div>
+          </article>
+        </div>
+      </div>
+      <div class="productDetails-contentRight" v-if="techDetail6">
+        <div class="contentRightContent clear">
+          <h3>甲醇裂解制氢技术</h3>
+          <article class="contentRightWrap">
+            <h2>工艺原理</h2>
+            <div class="theroyExplain" style="margin-top: 20px;">
+                甲醇、脱盐水混合后经加热汽化、过热后进入转化反应器，甲醇、水蒸汽在催化剂的作用下，在转化反应器中完成甲醇裂解、一氧化碳变换成二氧化碳等两步反应：
+            </div>
+            <div class="theroyExplain"> 甲醇裂解  CH3OH → CO + 2H2 – 90.7 KJ/mol</div>
+            <div class="theroyExplain">变换         CO + H2O → CO2 + H2 + 41.2 KJ/mol</div>
+            <div class="theroyExplain"> 总反应      CH3OH + H2O → CO2 + 3H2 – 49.5 KJ/mol</div>
+            <div class="theroyExplain">总反应为吸热反应，反应温度为230～290℃。</div>
+            <div class="theroyExplain">由于甲醇蒸汽转化反应为增加分子的反应，从理论上说，压力太高不利于反应的进行。但为了满足氢气的使用压力和变压吸附分离对压力的要求，一般采用的操作压力范围是0.8～3.0 MPa。</div>
+            <div class="theroyExplain">反应产物经换热、冷却冷凝和水洗分离，即得到氢含量～74.19%、CO2含量～24.46%，CO含量～0.5%的转化气。甲醇的单程转化率90%以上。
+              未反应的原料（甲醇、脱盐水）循环使用。水洗后的转化气，送变压吸附工序进行气体分离（氢气提纯）。</div>
+            <div class="theroyExplain">装置原料的汽化、过热、反应需要供给热量。原料汽化可选用中压蒸汽或导热油作为热媒，原料过热、反应选用导热油为热媒，而导热油加热热源可选用煤、水煤浆、燃气、蒸汽、电、甲醇等。</div>
+            <div class="theroyExplain"> 裂解气经PSA－H2装置分离可制得纯度99~99.999%的氢气。</div>
+            <h2>特点及优势</h2>
+            <div class="theroyExplain" style="margin-top: 20px;"> 1. 专有技术自主研发，国内首创，国内第一套装置1993年建于广州珠江电化厂。</div>
+            <div class="theroyExplain top"> 2. 催化剂活性高，使用量少（装填量2.5～3.0t/1000Nm3，99.99%H2），催化剂单程转化率高达90%以上。 </div>
+            <div class="theroyExplain top">3. 化剂选择性好，转化气中一氧化碳含量低（～0.5%以下）；转化气中一氧化碳含量是检测催化剂选择性的关键指标，
+              目前国内同类装置转化气中一氧化碳含量高达1.5%，变压吸附解吸气中一氧化碳含量高达4.5%，一氧化碳含量高，将导致氢气产量的下降。
+            </div>
+            <div class="theroyExplain top">4. 甲醇蒸汽转化催化剂使用寿命3年以上。 </div>
+            <div class="theroyExplain top">5. 催化剂的还原采用水-甲醇和氮氢气还原相结合的新技术。</div>
+            <div class="theroyExplain top"> 6. 专用催化剂、专用吸附剂、程控阀为我公司自主研发生产，达到世界先进水平。</div>
+            <h2>装置规模</h2>
+            <div class="theroyExplain top" style="margin-top: 20px;">20~100000 Nm3/h</div>
+          </article>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -210,7 +269,9 @@ export default {
       techDetail1: false,
       techDetail2: false,
       techDetail3: false,
-      techDetail4: false
+      techDetail4: false,
+      techDetail5: false,
+      techDetail6: false
     }
   },
   mounted () {
@@ -226,6 +287,8 @@ export default {
       self.techDetail4 = true
     } else if (query.tech === 5) {
       self.techDetail5 = true
+    } else if (query.tech === 6) {
+      self.techDetail6 = true
     }
   },
   computed: {
@@ -257,6 +320,20 @@ export default {
         self.techDetail2 = false
         self.techDetail1 = false
         self.techDetail4 = true
+      } else if (math === 5) {
+        self.techDetail3 = false
+        self.techDetail2 = false
+        self.techDetail1 = false
+        self.techDetail4 = false
+        self.techDetail6 = false
+        self.techDetail5 = true
+      } else if (math === 6) {
+        self.techDetail3 = false
+        self.techDetail2 = false
+        self.techDetail1 = false
+        self.techDetail6 = true
+        self.techDetail4 = false
+        self.techDetail5 = false
       }
     },
     handleOpen(key, keyPath) {
@@ -315,6 +392,7 @@ export default {
             color: #FF6C00;
           }
           .theroyExplain {
+            text-indent: 32px;
             font-weight: 400;
             font-family: MicrosoftYaHei;
             color: #333333;
