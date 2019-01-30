@@ -234,7 +234,7 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-          left: 40%;
+          left: 762px;
           position: absolute;
           overflow: visible!important;
           .nitBg {
@@ -281,7 +281,7 @@ export default {
         top: -100px;
       }
       .displayBottom2 {
-        width: 62.5%;
+        width: 751px;
         height: 30px;
         top: -130px;
         left: 375px;
