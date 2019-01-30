@@ -110,46 +110,45 @@
         </el-tab-pane>
         <el-tab-pane label="制氢">
           <div class="left-content">
-            <h3>制氮</h3>
+            <h3>天然气制氢技术</h3>
             <article>
-              <div class="left-contentDetails" style="margin-right: 126px;">
-                <div class="left-contentDetails-img">
-                  <img src="" alt="">
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/trq.jpg" style="width:307px;">
                 </div>
-                <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
-                <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
-                </div>
-              </div>
-              <div class="left-contentDetails">
-                <div class="left-contentDetails-img">
-                  <img src="" alt="">
-                </div>
-                <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
-                <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">变压吸附提纯氢气技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">以天然气为原料，经压缩、脱硫后与水蒸气进行转化、变换反应，制得氢含量大于70%（v/v%）以上的富氢转化气。富氢转化气经变压吸附(PSA)单元分离提纯即得到纯度99.9%（v/v%）以上的产品氢气。</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 4}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
                 </div>
               </div>
-              <div class="left-contentDetails" style="margin-right: 126px;">
-                <div class="left-contentDetails-img">
-                  <img src="" alt="">
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
                 </div>
-                <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
-                <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">焦炉气制CNG/LNG技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">以焦炉气为原料制取天然气，为得到合格的产品（SNG/CNG/LNG）,在生产过程中，CO2的含量必须降低到规定值以下，
+                    以保证产品质量或装置稳定运行的要求，可以通过甲烷化反应、气体分离技术（如PSA）或二者的组合来实现脱除CO2同时浓缩CH4的目的。采用甲烷化的方法，不但可以降低气体中的碳氧化物，
+                    还增加了CH4含量，获得更多需要的产品。
+                  </div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 5}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
                 </div>
               </div>
-              <div class="left-contentDetails">
-                <div class="left-contentDetails-img">
-                  <img src="" alt="">
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
                 </div>
-                <h3>制氮JWN标准型</h3>
-                <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
-                <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">甲醇裂解制氢技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">甲醇、脱盐水混合后经加热汽化、过热后进入转化反应器，甲醇、水蒸汽在催化剂的作用下，在转化反应器中完成甲醇裂解、一氧化碳变换成二氧化碳等两步反应</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 6}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
                 </div>
               </div>
             </article>
@@ -340,50 +339,7 @@
           </div>
         </el-tab-pane>
         <el-tab-pane label="能源煤化工技术" style="overflow: hidden">
-          <div class="left-content">
-            <h3>天然气制氢技术</h3>
-            <article>
-              <div class="technology-details">
-                <div>
-                  <img src="../../assets/切图/trq.jpg" style="width:307px;">
-                </div>
-                <div class="technology-details-intro" style="">
-                  <h3 style="">变压吸附提纯氢气技术</h3>
-                  <div style="margin-top: 10px; font-size:18px; text-align: left;">以天然气为原料，经压缩、脱硫后与水蒸气进行转化、变换反应，制得氢含量大于70%（v/v%）以上的富氢转化气。富氢转化气经变压吸附(PSA)单元分离提纯即得到纯度99.9%（v/v%）以上的产品氢气。</div>
-                  <div style="text-align: left; margin-top: 17px;">
-                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 4}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
-                  </div>
-                </div>
-              </div>
-              <div class="technology-details">
-                <div>
-                  <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
-                </div>
-                <div class="technology-details-intro" style="">
-                  <h3 style="">焦炉气制CNG/LNG技术</h3>
-                  <div style="margin-top: 10px; font-size:18px; text-align: left;">以焦炉气为原料制取天然气，为得到合格的产品（SNG/CNG/LNG）,在生产过程中，CO2的含量必须降低到规定值以下，
-                    以保证产品质量或装置稳定运行的要求，可以通过甲烷化反应、气体分离技术（如PSA）或二者的组合来实现脱除CO2同时浓缩CH4的目的。采用甲烷化的方法，不但可以降低气体中的碳氧化物，
-                    还增加了CH4含量，获得更多需要的产品。
-                  </div>
-                  <div style="text-align: left; margin-top: 17px;">
-                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 5}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
-                  </div>
-                </div>
-              </div>
-              <div class="technology-details">
-                <div>
-                  <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
-                </div>
-                <div class="technology-details-intro" style="">
-                  <h3 style="">甲醇裂解制氢技术</h3>
-                  <div style="margin-top: 10px; font-size:18px; text-align: left;">甲醇、脱盐水混合后经加热汽化、过热后进入转化反应器，甲醇、水蒸汽在催化剂的作用下，在转化反应器中完成甲醇裂解、一氧化碳变换成二氧化碳等两步反应</div>
-                  <div style="text-align: left; margin-top: 17px;">
-                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 6}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
+          
         </el-tab-pane>
       </el-tabs>
       <el-tabs tab-position="left" >
