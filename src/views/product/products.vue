@@ -339,7 +339,6 @@
           </div>
         </el-tab-pane>
         <el-tab-pane label="能源煤化工技术" style="overflow: hidden">
-          
         </el-tab-pane>
       </el-tabs>
       <el-tabs tab-position="left" >
@@ -492,8 +491,6 @@ export default {
                   text-align: left;
                   float: left;
                   img {
-                    // width: 100%;
-                    // height: 100%;
                   }
                 }
                 .technology-details-intro {
