@@ -5,25 +5,90 @@
         <div class="displayNav">
           <div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>
           <el-tabs tab-position="left">
-            <el-tab-pane class="red" :class="['']" label="制氮">
+            <el-tab-pane class="red" :class="['']" label="变压吸附制氮装置">
               <div class="nitBg nitBg1">
-                <img src="../assets/切图/chanping.png" alt="">
-                <div>制氮JWN标准型</div>
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
+                <div>变压吸附制氮装置</div>
               </div>
               <div class="nitBg nitBg2">
-                <img src="../assets/切图/-s-JWN-A.png" alt="">
-                <div>制氮JWN-A型</div>
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+                <div>可移动制氮装置</div>
               </div>
               <div class="nitBg nitBg3">
-                <img src="../assets/切图/-s-JWN-B.png" alt="">
-                <div>制氮JWN-B型</div>
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
               </div>
             </el-tab-pane>
-            <el-tab-pane label="制氧">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
-            <el-tab-pane label="制氢">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
-            <el-tab-pane label="过滤器系列">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
-            <el-tab-pane label="干燥剂系列">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
-            <el-tab-pane label="滤芯系列">产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示产品展示</el-tab-pane>
+            <el-tab-pane label="变压吸附制氧装置">
+              <div class="nitBg nitBg1">
+                <img src="../assets/轮播图/变压吸附制氧装/sy-zhiyan.png" alt="">
+                <div>制氧装置</div>
+              </div>
+              <!-- <div class="nitBg nitBg2">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+                <div>可移动制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div> -->
+            </el-tab-pane>
+            <el-tab-pane label="天然转化制氢装置">
+              <div class="nitBg nitBg1">
+                <img src="../assets/轮播图/天然转化制氢装置/sy-tianranqi-a.png" alt="">
+                <div>变压吸附制氮装置</div>
+              </div>
+              <div class="nitBg nitBg2">
+                <img src="../assets/轮播图/天然转化制氢装置/sy-tianranqi-b.png" alt="">
+                <div>可移动制氮装置</div>
+              </div>
+              <!-- <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div> -->
+            </el-tab-pane>
+            <el-tab-pane label="甲醇裂解制氢装置">
+              <div class="nitBg nitBg1">
+                <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-a.png" alt="">
+                <div>变压吸附制氮装置</div>
+              </div>
+              <div class="nitBg nitBg2">
+                <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-b.png" alt="">
+                <div>可移动制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-c.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div>
+            </el-tab-pane>
+            <el-tab-pane label="压缩空气净化设备">
+              <div class="nitBg nitBg1">
+                <img src="../assets/轮播图/压缩空气净化设备/sy-yasuokongq-a-zuhe.png" alt="">
+                <div>组合式干燥机</div>
+              </div>
+              <div class="nitBg nitBg2">
+                <img src="../assets/轮播图/压缩空气净化设备/sy-yasuokongq-b-weiren.png" alt="">
+                <div>可移动制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/压缩空气净化设备/yasuoji-diludian-ab.png" alt="">
+                <div>压缩空气干燥机</div>
+              </div>
+            </el-tab-pane>
+            <el-tab-pane label="氮气纯化装置">
+              <div class="nitBg nitBg1">
+                <img src="../assets/轮播图/氮气纯化装置/sy-danqichunhau.png" alt="">
+                <div>氮气纯化装置</div>
+              </div>
+              <!-- <div class="nitBg nitBg2">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+                <div>可移动制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div> 
+              </div>-->
+            </el-tab-pane>
           </el-tabs>
         </div>
         <div class="displayBottom displayBottom1"></div>
@@ -38,28 +103,36 @@
           <div class="craftContent-img">
             <div class="craftContent-wrap">
               <div class="craftContent-imgSize">
-                <img src="../assets/切图/bianyaxiifu1.png" alt="">
+                <img src="../assets/切图/xifutichu.png" alt="">
               </div>
-              <h3>环保变压吸附技术</h3>
-              <div class="craftContent-intro">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料...</div>
+              <h3>天然气转化制氢技术</h3>
+              <div class="craftContent-intro">该技术是利用天然气加压脱硫后与水蒸汽在装填有催化剂的特殊转化炉内发生化学反应，生成含氢气、二氧化碳和一氧化碳的转化气，经废锅...</div>
               <el-button>查看更多</el-button>
               <!-- <div> -->
               <!-- </div> -->
             </div>
             <div class="craftContent-wrap">
               <div class="craftContent-imgSize">
-                <img src="../assets/切图/cad.png" alt="">
+                <img src="../assets/切图/jlqz.jpg" alt="">
               </div>
-              <h3>CAD新技术广泛应用</h3>
-              <p class="craftContent-intro">水泵的模具、叶片和重要零件开始用数控机床加工，从而可以提高泵的制造质量。水泵水力设计与绘型软件逐渐代替人工计算和绘图有人问用...</p>
+              <h3>甲醇裂解制氢技术</h3>
+              <p class="craftContent-intro">甲醇裂解-变压吸附制氢技术是一种以甲醇、水为原料，在一定的温度和压力下经催化剂转化成混合气体，然后通过变压吸附提纯氢气的一种技术。</p>
               <el-button>查看更多</el-button>
             </div>
             <div class="craftContent-wrap">
               <div class="craftContent-imgSize">
                 <img src="../assets/切图/wudusai.png" alt="">
               </div>
-              <h3>无堵塞泵和低比转速泵...</h3>
-              <p class="craftContent-intro">我国自行总结出的无堵塞泵设计方法，基本达到实用程度，国内广泛使用。设计方法主要包括：沿流道中线断面变化规律设计双流道叶轮;方格...</p>
+              <h3>变压吸附制氮技术</h3>
+              <p class="craftContent-intro">它是以空气为原材料，利用一种高效能、高选择的固体吸附剂对氮和氧的选择性吸附的性能把空气中的氮和氧分离出来。碳分子筛对氮和氧的...</p>
+              <el-button>查看更多</el-button>
+            </div>
+            <div class="craftContent-wrap">
+              <div class="craftContent-imgSize">
+                <img src="../assets/切图/-s-xifutichun.png" alt="">
+              </div>
+              <h3>变压吸附制氧技术</h3>
+              <p class="craftContent-intro">变压吸附制氧设备（也称PSA制氧设备），在常温常压的条件下，利用PSA专用分子筛选择性吸附空气中的氮气、二氧化碳和水等杂质，从而取得纯度...</p>
               <el-button>查看更多</el-button>
             </div>
           </div>
@@ -300,14 +373,15 @@ export default {
         }
         .craftContent-img {
           width: 100%;
+          height: 100%;
           margin-top: 20px;
           .craftContent-wrap {
-            width: 355px;
+            width: 261px;
             float: left;
             margin-left: 20px;
             .craftContent-imgSize {
               width: 100%;
-              height: 247px;
+              height: 189px;
               img {
                 width: 100%;
                 height: 100%;
@@ -317,16 +391,17 @@ export default {
               margin-top: 15px;
             }
             .craftContent-intro {
-              width: 350px;
-              height: 100px;
-              margin: auto;
+              width: 100%;
+              font-size: 15px;
+              text-align: left;
+              margin-top: 10px;
               font-family: MicrosoftYaHei;
               font-weight: 400;
               color: rgba(155,155,155,1);
               line-height: 27px;
             }
             .el-button {
-              width: 355px;
+              width: 100%;
               height: 35px;
               margin-top: 20px;
               line-height: 2px;
