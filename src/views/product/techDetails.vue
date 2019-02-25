@@ -12,7 +12,7 @@
     </div>
     <div class="techDetails-content clear">
       <div class="productDetails-contentLeft">
-        <el-menu class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose">
+        <!--<el-menu class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose">
           <el-submenu index="1">
             <template slot="title">环保变压吸附技术</template>
             <el-menu-item @click="techDetail(1)" index="1-1">变压吸附提纯氢气技术</el-menu-item>
@@ -25,7 +25,8 @@
             <el-menu-item @click="techDetail(5)" index="2-2">焦炉气制CNG/LNG技术</el-menu-item>
             <el-menu-item @click="techDetail(6)" index="2-3">甲醇裂解制氢技术</el-menu-item>
           </el-submenu>
-        </el-menu>
+        </el-menu>-->
+         <div class="contentLeft-btn">制氢</div>
         <div class="paperBottom-bottom">
 					<div class="paperBottom-bottom-title">
 						联系我们
@@ -407,6 +408,16 @@ export default {
       }
     }
   }
+  .contentLeft-btn {
+					width:100%;
+          height: 65px;
+          color: white;
+          font-size: 19px;
+          font-weight: bold;
+          line-height: 60px;
+          box-shadow:0px 3px 3px 0px rgba(221,94,1,0.08);
+          background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
+        }
 </style>
 
 

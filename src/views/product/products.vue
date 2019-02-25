@@ -124,7 +124,7 @@
                   </div>
                 </div>
               </div>
-              <div class="technology-details">
+              <!--<div class="technology-details">
                 <div>
                   <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
                 </div>
@@ -138,7 +138,7 @@
                     <el-button @click="$router.push({path: '/techDetails', query: {tech: 5}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
                   </div>
                 </div>
-              </div>
+              </div>-->
               <div class="technology-details">
                 <div>
                   <img src="../../assets/切图/jlqz.jpg" style="width:307px;">
@@ -344,7 +344,7 @@
       </el-tabs>
       <el-tabs tab-position="left" >
       </el-tabs>
-      <div class="contactUs">
+      <div class="contactUs" style="margin-top: 350px;">
         <div class="paperBottom-bottom">
           <div class="paperBottom-bottom-title">
             联系我们

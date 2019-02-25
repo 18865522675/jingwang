@@ -234,7 +234,7 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-          left: 762px;
+          left: 580px;
           position: absolute;
           overflow: visible!important;
           .nitBg {
