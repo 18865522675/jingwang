@@ -12,15 +12,15 @@
     </div>
     <div class="content">
       <el-tabs tab-position="left">
-        <el-tab-pane label="制氮">
+        <el-tab-pane label="变压吸附制氮装置">
           <div class="left-content">
-            <h3>制氮</h3>
+            <h3>变压吸附制氮装置</h3>
             <article>
               <div class="left-contentDetails" style="margin-right: 126px;">
                 <div class="left-contentDetails-img">
-                  <img src="../../assets/切图/chanping.png" alt="">
+                  <img src="../../assets/轮播图/变压吸附制氮装置/bianyaxifu.png">
                 </div>
-                <h3>制氮JWN标准型</h3>
+                <h3>变压吸附制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button @click="$router.push('/productDetails')" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -28,9 +28,9 @@
               </div>
               <div class="left-contentDetails">
                 <div class="left-contentDetails-img">
-                  <img src="../../assets/切图/-s-JWN-A.png" alt="">
+                  <img src="../../assets/轮播图/变压吸附制氮装置/keyidon.png">
                 </div>
-                <h3>制氮JWN-A型</h3>
+                <h3>可移动制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <!-- <router-link to="/productDetails"> -->
@@ -40,9 +40,9 @@
               </div>
               <div class="left-contentDetails" style="margin-right: 126px;">
                 <div class="left-contentDetails-img">
-                  <img src="../../assets/切图/-s-JWN-B.png" alt="">
+                  <img src="../../assets/轮播图/变压吸附制氮装置/qiaozhuangshi.png">
                 </div>
-                <h3>制氮JWN-B型</h3>
+                <h3>撬装式制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -50,9 +50,9 @@
               </div>
               <div class="left-contentDetails">
                 <div class="left-contentDetails-img">
-                  <img src="../../assets/切图/-s-JWN-C.png" alt="">
+                  <img src="../../assets/轮播图/变压吸附制氮装置/zhidan.png">
                 </div>
-                <h3>制氮JWN-C型</h3>
+                <h3>制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -61,7 +61,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="制氧">
+        <el-tab-pane label="变压吸附制氧装置">
           <div class="left-content">
             <h3>制氮</h3>
             <article>
@@ -108,7 +108,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="制氢">
+        <el-tab-pane label="天然转化制氢装置">
           <div class="left-content">
             <h3>天然气制氢技术</h3>
             <article>
@@ -154,7 +154,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="空气净化设备">
+        <el-tab-pane label="甲醇裂解制氢装置">
           <div class="left-content">
             <h3>制氮</h3>
             <article>
@@ -201,7 +201,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="二氧化碳提纯">
+        <el-tab-pane label="压缩空气净化装置">
           <div class="left-content">
             <h3>制氮</h3>
             <article>
@@ -248,7 +248,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="原件">
+        <el-tab-pane label="氮气纯化装置">
           <div class="left-content">
             <h3>制氮</h3>
             <article>
@@ -295,7 +295,7 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="环保变压吸附技术">
+        <el-tab-pane label="天然气转化制氢技术">
           <div class="left-content">
             <h3>环保变压吸附技术</h3>
             <article>
@@ -338,7 +338,93 @@
             </article>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="能源煤化工技术" style="overflow: hidden">
+        <el-tab-pane label="甲醇裂解制氢技术" style="overflow: hidden">
+        </el-tab-pane>
+        <el-tab-pane label="变压吸附制氮技术">
+          <div class="left-content">
+            <h3>环保变压吸附技术</h3>
+            <article>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/xifutichu.png" alt="">
+                </div>
+                <div class="technology-details-intro">
+                  <h3 style="">变压吸附提纯氢气技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料气中的杂质...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 1}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/-s-jinghuanongsuo.png" alt="">
+                </div>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">变压吸附净化浓缩甲烷技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">富含甲烷的混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料气中的杂质...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 2}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/-s-xifutichun.png" alt="">
+                </div>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">变压吸附提纯一氧化碳技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">采用变压吸附工艺从含一氧化碳、氢气、氮气、甲烷、二氧化碳等组分的混合气中提纯一氧化碳。原料气进入一段PSA装置，吸附除去二氧化碳、水分及微量...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 3}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="变压吸附制氧技术">
+          <div class="left-content">
+            <h3>环保变压吸附技术</h3>
+            <article>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/xifutichu.png" alt="">
+                </div>
+                <div class="technology-details-intro">
+                  <h3 style="">变压吸附提纯氢气技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">含氢(H2)混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料气中的杂质...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 1}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/-s-jinghuanongsuo.png" alt="">
+                </div>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">变压吸附净化浓缩甲烷技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">富含甲烷的混合气进入变压吸附装置吸附塔后，由于吸附床内吸附剂对气体混合物中各组分的吸附能力随着压力变化而呈现差异，加压时吸附原料气中的杂质...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 2}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+              <div class="technology-details">
+                <div>
+                  <img src="../../assets/切图/-s-xifutichun.png" alt="">
+                </div>
+                <div class="technology-details-intro" style="">
+                  <h3 style="">变压吸附提纯一氧化碳技术</h3>
+                  <div style="margin-top: 10px; font-size:18px; text-align: left;">采用变压吸附工艺从含一氧化碳、氢气、氮气、甲烷、二氧化碳等组分的混合气中提纯一氧化碳。原料气进入一段PSA装置，吸附除去二氧化碳、水分及微量...</div>
+                  <div style="text-align: left; margin-top: 17px;">
+                    <el-button @click="$router.push({path: '/techDetails', query: {tech: 3}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看更多</el-button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
         </el-tab-pane>
       </el-tabs>
       <el-tabs tab-position="left" >
