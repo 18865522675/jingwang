@@ -63,13 +63,13 @@
         </el-tab-pane>
         <el-tab-pane label="变压吸附制氧装置">
           <div class="left-content">
-            <h3>制氮</h3>
+            <h3>制氧</h3>
             <article>
               <div class="left-contentDetails" style="margin-right: 110px;">
                 <div class="left-contentDetails-img">
-                  <img src="" alt="">
+                  <img src="../../assets/轮播图/变压吸附制氧装/zhiyan.png" alt="">
                 </div>
-                <h3>制氮JWN标准型</h3>
+                <h3>制氧设备</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -77,9 +77,9 @@
               </div>
               <div class="left-contentDetails">
                 <div class="left-contentDetails-img">
-                  <img src="" alt="">
+                  <img src="../../assets/zwct.png" alt="">
                 </div>
-                <h3>制氮JWN标准型</h3>
+                <h3>暂无设备</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -87,9 +87,9 @@
               </div>
               <div class="left-contentDetails" style="margin-right: 110px;">
                 <div class="left-contentDetails-img">
-                  <img src="" alt="">
+                  <img src="../../assets/zwct.png" alt="">
                 </div>
-                <h3>制氮JWN标准型</h3>
+                <h3>暂无设备</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -97,9 +97,9 @@
               </div>
               <div class="left-contentDetails">
                 <div class="left-contentDetails-img">
-                  <img src="" alt="">
+                  <img src="../../assets/zwct.png" alt="">
                 </div>
-                <h3>制氮JWN标准型</h3>
+                <h3>暂无设备</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -438,31 +438,31 @@
             如果有任何问题请及时联系
           </div>
           <div class="paperBottom-bottom-intro" style="margin-top: 20px;">
-            <div class="paperBottom-bottom-intro-item">
-              <span>联系人 ：</span>
-              <span>丁振兴</span>
-            </div>
-            <div class="paperBottom-bottom-intro-item">
-              <span>手 &nbsp;&nbsp;机 ：</span>
-              <span>13606536877</span>
-            </div>
-            <div class="paperBottom-bottom-intro-item">
-              <span>传&nbsp;&nbsp; 真 ：</span>
-              <span>0571-63266701</span>
-            </div>
-            <div class="paperBottom-bottom-intro-item">
-              <span>邮 &nbsp;&nbsp;箱 ：</span>
-              <span>888888888@qq.com</span>
-            </div>
-            <div class="paperBottom-bottom-intro-item">
-              <span>网&nbsp;&nbsp; 址 ：</span>
-              <span>XXXXXXXXXXXXXXXXXX</span>
-            </div>
-            <div class="paperBottom-bottom-intro-item">
-              <span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
-              <span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
-            </div>
-          </div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>联系人 ：</span>
+							<span>吴先生</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>电话 &nbsp;&nbsp;话 ：</span>
+							<span>0571-63266676</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>传&nbsp;&nbsp; 真 ：</span>
+							<span>0571-63266701</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>邮 &nbsp;&nbsp;箱 ：</span>
+							<span>hzjingwang2011@163.com</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>网&nbsp;&nbsp; 址 ：</span>
+							<span>XXXXXXXXXXXXXXXXXX</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
+							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
+						</div>
+					</div>
         </div>
       </div>
     </div>
@@ -536,6 +536,7 @@ export default {
       .el-tabs__content {
         .el-tab-pane {
           width: 100%;
+          height: 915px;
           .left-content {
             overflow: hidden;
             h3 {
