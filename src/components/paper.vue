@@ -29,7 +29,7 @@
 							<span>吴先生</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
-							<span>电话 &nbsp;&nbsp;话 ：</span>
+							<span>电 &nbsp;&nbsp;话 ：</span>
 							<span>0571-63266676</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
