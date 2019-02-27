@@ -369,6 +369,7 @@ export default {
 }
   .techDetails {
     // height: 1650px;
+    padding-bottom: 150px;
     .productDetails-contentLeft {
       margin-top: 30px;
       .techDetails-content {
@@ -386,7 +387,7 @@ export default {
         }
         .contentRightWrap {
           margin-top: 10px;
-          border-top: 1px solid #333333;
+          border-top: 1px solid #FF6600;
           h2 {
             margin-top: 40px;
             color: #FF6C00;
