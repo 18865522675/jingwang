@@ -48,7 +48,7 @@
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <router-view style="margin: 50px auto;width: 1200px; margin-bottom: 0px!important;"/>
+    <router-view style="margin: 50px auto;width: 1200px; margin-bottom: 0px!important;padding-bottom: 150px;"/>
       <div class="bottom">
         <ul>
           <li @click="$router.push('/company')">
