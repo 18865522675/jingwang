@@ -23,7 +23,7 @@
                 <h3>变压吸附制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button @click="$router.push('/productDetails')" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 1}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -34,7 +34,7 @@
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <!-- <router-link to="/productDetails"> -->
-                    <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                    <el-button @click="$router.push({path: '/productDetails', query: {code: 2}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                   <!-- </router-link> -->
                 </div>
               </div>
@@ -45,7 +45,7 @@
                 <h3>撬装式制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 3}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -55,7 +55,7 @@
                 <h3>制氮装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 4}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
             </article>
@@ -72,7 +72,7 @@
                 <h3>制氧设备</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 5}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -119,7 +119,7 @@
                 <h3>制氢装置</h3>
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button @click="$router.push('/productDetails')" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 6}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -130,7 +130,7 @@
                 <h5>应用领域: <span style="font-size:14px;font-weight: normal;">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <!-- <router-link to="/productDetails"> -->
-                    <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                    <el-button @click="$router.push({path: '/productDetails', query: {code: 7}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                   <!-- </router-link> -->
                 </div>
               </div>
@@ -168,7 +168,7 @@
                 <h3>制氢装置</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 8}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -178,7 +178,7 @@
                 <h3>制氢装置</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 9}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails" style="margin-right: 126px;">
@@ -188,7 +188,7 @@
                 <h3>制氢装置</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 10}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -215,7 +215,7 @@
                 <h3>组合式干燥机</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button  @click="$router.push({path: '/productDetails', query: {code: 11}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -225,7 +225,7 @@
                 <h3>组合式干燥机</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button  @click="$router.push({path: '/productDetails', query: {code: 12}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails" style="margin-right: 126px;">
@@ -235,7 +235,7 @@
                 <h3>低露点压缩空气干燥机</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 13}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -262,7 +262,7 @@
                 <h3>氮气纯化装置</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
-                  <el-button style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
+                  <el-button @click="$router.push({path: '/productDetails', query: {code: 14}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
                 </div>
               </div>
               <div class="left-contentDetails">
@@ -502,6 +502,8 @@ export default {
 		},
   },
   mounted() {
+  },
+  methods: {
   },
   created() {
   }

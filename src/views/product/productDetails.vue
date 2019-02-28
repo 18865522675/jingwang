@@ -12,7 +12,12 @@
     </div>
     <div class="productDetails-content clear">
       <div class="productDetails-contentLeft">
-        <div class="contentLeft-btn">制氮</div>
+        <div v-if="techName1" class="contentLeft-btn">变压吸附制氮装置</div>
+        <div v-if="techName2" class="contentLeft-btn">变压吸附制氧装置</div>
+        <div v-if="techName3" class="contentLeft-btn">天然转化制氢装置</div>
+        <div v-if="techName4" class="contentLeft-btn">甲醇裂解制氢装置</div>
+        <div v-if="techName5" class="contentLeft-btn">压缩空气净化装置</div>
+        <div v-if="techName6" class="contentLeft-btn">氮气纯化装置</div>
         <div class="paperBottom-bottom">
 					<div class="paperBottom-bottom-title">
 						联系我们
@@ -49,37 +54,132 @@
 				</div>
       </div>
       <div class="productDetails-contentright">
-        <h3>变压吸附制氮装置</h3>
+        <h3 v-if="code1">变压吸附制氮装置</h3>
+        <h3 v-if="code2">可移动制氮装置</h3>
+        <h3 v-if="code3">撬装式制氮装置</h3>
+        <h3 v-if="code4">制氮装置</h3>
+        <h3 v-if="code5">制氧装置</h3>
+        <h3 v-if="code6">制氢装置</h3>
+        <h3 v-if="code7">制氢装置</h3>
+        <h3 v-if="code8">制氢装置</h3>
+        <h3 v-if="code9">制氢装置</h3>
+        <h3 v-if="code10">制氢装置</h3>
+        <h3 v-if="code11">压缩空气净化装置</h3>
+        <h3 v-if="code12">压缩空气净化装置</h3>
+        <h3 v-if="code13">压缩空气净化装置</h3>
+        <h3 v-if="code14">氮气纯化装置</h3>
         <article>
           <div class="contentright-img">
-            <img src="../../assets/切图/-s-JWN.png" alt="">
+            <img v-if="code1" src="../../assets/切图/-s-JWN.png" alt="">
+            <img v-if="code2" src="../../assets/轮播图/变压吸附制氮装置/keyidon.png" alt="">
+            <img v-if="code3" src="../../assets/轮播图/变压吸附制氮装置/qiaozhuangshi.png" alt="">
+            <img v-if="code4" src="../../assets/轮播图/变压吸附制氮装置/zhidan.png" alt="">
+            <img v-if="code5" src="../../assets/轮播图/变压吸附制氧装/zhiyan.png" alt="">
+            <img v-if="code6" src="../../assets/轮播图/天然转化制氢装置/tianrnaqi-a.png" alt="">
+            <img v-if="code7" src="../../assets/轮播图/天然转化制氢装置/tianrnaqi-b.png" alt="">
+            <img v-if="code8" src="../../assets/轮播图/甲醇裂解制氢装置/jiachun-a.png" alt="">
+            <img v-if="code9" src="../../assets/轮播图/甲醇裂解制氢装置/jiachun-b.png" alt="">
+            <img v-if="code10" src="../../assets/轮播图/甲醇裂解制氢装置/jiachun-c.png" alt="">
+            <img v-if="code11" src="../../assets/轮播图/压缩空气净化设备/yasuokongq-a-zuhe.png" alt="">
+            <img v-if="code12" src="../../assets/轮播图/压缩空气净化设备/yasuokongq-b-weiren.png" alt="">
+            <img v-if="code13" src="../../assets/轮播图/压缩空气净化设备/yasuokongq-c-ludian.png" alt="">
+            <img v-if="code14" src="../../assets/轮播图/氮气纯化装置/danqichunhau.png" alt="">
             <div class="contentright-intro">
-              <h2 style="text-align: left;">变压吸附制氮装置</h2>
+              <h2 v-if="code1" style="text-align: left;">变压吸附制氮装置</h2>
+              <h2 v-if="code2" style="text-align: left;">可移动制氮装置</h2>
+              <h2 v-if="code3" style="text-align: left;">撬装式制氮装置</h2>
+              <h2 v-if="code4" style="text-align: left;">制氮装置</h2>
+              <h2 v-if="code5" style="text-align: left;">制氧装置</h2>
+              <h2 v-if="code6" style="text-align: left;">制氢装置</h2>
+              <h2 v-if="code7" style="text-align: left;">制氢装置</h2>
+              <h2 v-if="code8" style="text-align: left;">制氢装置</h2>
+              <h2 v-if="code9" style="text-align: left;">制氢装置</h2>
+              <h2 v-if="code10" style="text-align: left;">制氢装置</h2>
+              <h2 v-if="code11" style="text-align: left;">压缩空气净化装置</h2>
+              <h2 v-if="code12" style="text-align: left;">压缩空气净化装置</h2>
+              <h2 v-if="code13" style="text-align: left;">压缩空气净化装置</h2>
+              <h2 v-if="code14" style="text-align: left;">氮气纯化装置</h2>
               <div style="margin-top: 45px; color:rgba(254,0,0,1);">请联系我们</div>
               <div style="font-size: 30px; font-family: MicrosoftYaHei;">13606536877</div>
               <div>产地：浙江省/杭州市</div>
               <div>技术指标</div>
-              <div class="contentright-intro-zhibiao">氮气产量：5~3000Nm²/h</div>
-              <div class="contentright-intro-zhibiao">氮气纯度：95~99.9998%</div>
-              <div class="contentright-intro-zhibiao">氮气压力：0~0.8MPa(可提供0.1~0.8MPa)</div>
-              <div class="contentright-intro-zhibiao">露点：≤-45℃（常压）</div>
+              <div v-if="code1">
+                <div class="contentright-intro-zhibiao">氮气产量：5~3000Nm²/h</div>
+                <div class="contentright-intro-zhibiao">氮气纯度：95~99.9998%</div>
+                <div class="contentright-intro-zhibiao">氮气压力：0~0.8MPa(可提供0.1~0.8MPa)</div>
+                <div class="contentright-intro-zhibiao">露点：≤-45℃（常压）</div>
+              </div>
+              <div v-if="code2">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code3">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code4">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code5">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code6">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code7">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code8">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code9">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code10">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code11">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code12">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code13">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code14">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
             </div>
           </div>
         </article>
-        <div class="contentright-explain">“JWN 变压吸附制氮装置”工作原理</div>
-        <div class="contentright-dd">
-          根据变压吸附原理，采用高品质碳分子筛作为吸附剂，在一定压力下由于动力学效应，氧在碳分子筛微孔中的扩散率远大于氮，在吸附未达到平衡时，
-          氧被碳分子筛大量吸附，氧分子在气相中被富集，达到氧氮分离。由于碳分子筛对氧的吸附容量随压力的不同两者有明显的差异，降低压力，即可解吸碳分子筛再生，
-          得以重复循环使用。采用两个吸附塔流程，一塔吸附产氮，一塔解吸再生，通过PLC智能程序控制气动角座阀的启闭，使两塔循环交替，连续产出高品质氮气。
+        <div v-if="code1">
+          <div class="contentright-explain">“JWN 变压吸附制氮装置”工作原理</div>
+          <div class="contentright-dd">
+            根据变压吸附原理，采用高品质碳分子筛作为吸附剂，在一定压力下由于动力学效应，氧在碳分子筛微孔中的扩散率远大于氮，在吸附未达到平衡时，
+            氧被碳分子筛大量吸附，氧分子在气相中被富集，达到氧氮分离。由于碳分子筛对氧的吸附容量随压力的不同两者有明显的差异，降低压力，即可解吸碳分子筛再生，
+            得以重复循环使用。采用两个吸附塔流程，一塔吸附产氮，一塔解吸再生，通过PLC智能程序控制气动角座阀的启闭，使两塔循环交替，连续产出高品质氮气。
+          </div>
+          <div class="contentright-explain clear">“JWN 变压吸附制氮装置”技术特点</div>
+          <div class="contentright-dd">
+            进口气动角座阀，寿命达100万次以上。进口PLC智能程序控制器，操作简便，运行稳定。合理的内部构件，气流分布均匀，减轻气流高速冲击。
+            特有的分子筛保护措施，延长碳分子筛的使用寿命。自动联锁氮气排空装置，保证产品氮气质量。
+          </div>
+          <div class="contentright-explain">“JWN 变压吸附制氮装置”主要参数表</div>
+          <div class="contentright-explainImg">
+            <img class="" src="../../assets/轮播图/变压吸附制氮装置/cs-bianyaxifu-zhidan.png" alt="">
+          </div>
         </div>
-        <div class="contentright-explain clear">“JWN 变压吸附制氮装置”技术特点</div>
-        <div class="contentright-dd">
-          进口气动角座阀，寿命达100万次以上。进口PLC智能程序控制器，操作简便，运行稳定。合理的内部构件，气流分布均匀，减轻气流高速冲击。
-          特有的分子筛保护措施，延长碳分子筛的使用寿命。自动联锁氮气排空装置，保证产品氮气质量。
+        <div v-if="code2">
+          <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div class="contentright-explain">“JWN 变压吸附制氮装置”主要参数表</div>
-        <div class="contentright-explainImg">
-          <img class="" src="../../assets/轮播图/变压吸附制氮装置/cs-bianyaxifu-zhidan.png" alt="">
+        <div v-if="code3">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code4">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code5">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code6">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code7">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code8">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code9">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code10">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code11">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code12">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code13">
+          <img src="../../assets/轮播图/queshi.png" alt="">
+        </div>
+        <div v-if="code14">
+          <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
       </div>
     </div>
@@ -89,7 +189,28 @@
 <script>
 export default {
   data () {
-    return {}
+    return {
+      code1: false,
+      code2: false,
+      code3: false,
+      code4: false,
+      code5: false,
+      code6: false,
+      code7: false,
+      code8: false,
+      code9: false,
+      code10: false,
+      code11: false,
+      code12: false,
+      code13: false,
+      code14: false,
+      techName1: false,
+      techName2: false,
+      techName3: false,
+      techName4: false,
+      techName5: false,
+      techName6: false
+    }
   },
   computed: {
     "route": function() {
@@ -97,6 +218,52 @@ export default {
       return this.$route.matched;
 		},
   },
+  mounted () {
+    var query = this.$route.query
+    if (query.code === 1) {
+      this.code1 = true
+      this.techName1 = true
+    } else if (query.code === 2) {
+      this.code2 = true
+      this.techName1 = true
+    } else if (query.code === 3) {
+      this.code3 = true
+      this.techName1 = true
+    } else if (query.code === 4) {
+      this.code4 = true
+      this.techName1 = true
+    } else if (query.code === 5) {
+      this.code5 = true
+      this.techName2 = true
+    } else if (query.code === 6) {
+      this.code6 = true
+      this.techName3 = true
+    } else if (query.code === 7) {
+      this.code7 = true
+      this.techName3 = true
+    } else if (query.code === 8) {
+      this.code8 = true
+      this.techName4 = true
+    } else if (query.code === 9) {
+      this.code9 = true
+      this.techName4 = true
+    } else if (query.code === 10) {
+      this.code10 = true
+      this.techName4 = true
+    } else if (query.code === 11) {
+      this.code11 = true
+      this.techName5 = true
+    } else if (query.code === 12) {
+      this.code12 = true
+      this.techName5 = true
+    } else if (query.code === 13) {
+      this.code13 = true
+      this.techName5 = true
+    } else if (query.code === 14) {
+      this.code14 = true
+      this.techName6 = true
+    }
+  }
 }
 </script>
 
