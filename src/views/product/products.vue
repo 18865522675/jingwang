@@ -222,7 +222,7 @@
                 <div class="left-contentDetails-img">
                   <img src="../../assets/轮播图/压缩空气净化设备/yasuokongq-b-weiren.png" alt="">
                 </div>
-                <h3>组合式干燥机</h3>
+                <h3>微热再生吸干机</h3>
                 <h5>应用领域: <span style="font-size:10px">适用于石油、化工、SMT、食品加工、医药及器械、粉末冶金、铜加工、天然气、金属热处理等等</span></h5>
                 <div style="text-align: left; margin-top: 10px;">
                   <el-button  @click="$router.push({path: '/productDetails', query: {code: 12}})" style="width:120px; height:40px; background:rgba(255,108,0,1);color: #fff">查看详情</el-button>
@@ -472,10 +472,10 @@
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
 							<span>hzjingwang2011@163.com</span>
 						</div>
-						<div class="paperBottom-bottom-intro-item">
+						<!-- <div class="paperBottom-bottom-intro-item">
 							<span>网&nbsp;&nbsp; 址 ：</span>
 							<span>XXXXXXXXXXXXXXXXXX</span>
-						</div>
+						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
 							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>

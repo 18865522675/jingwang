@@ -42,10 +42,10 @@
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
 							<span>hzjingwang2011@163.com</span>
 						</div>
-						<div class="paperBottom-bottom-intro-item">
+						<!-- <div class="paperBottom-bottom-intro-item">
 							<span>网&nbsp;&nbsp; 址 ：</span>
 							<span>XXXXXXXXXXXXXXXXXX</span>
-						</div>
+						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
 							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
@@ -96,32 +96,32 @@
               <h2 v-if="code9" style="text-align: left;">制氢装置</h2>
               <h2 v-if="code10" style="text-align: left;">制氢装置</h2>
               <h2 v-if="code11" style="text-align: left;">压缩空气净化装置</h2>
-              <h2 v-if="code12" style="text-align: left;">压缩空气净化装置</h2>
-              <h2 v-if="code13" style="text-align: left;">压缩空气净化装置</h2>
+              <h2 v-if="code12" style="text-align: left;">微热再生吸干机</h2>
+              <h2 v-if="code13" style="text-align: left;">低露点压缩空气干燥机</h2>
               <h2 v-if="code14" style="text-align: left;">氮气纯化装置</h2>
               <div style="margin-top: 45px; color:rgba(254,0,0,1);">请联系我们</div>
               <div style="font-size: 30px; font-family: MicrosoftYaHei;">13606536877</div>
               <div>产地：浙江省/杭州市</div>
-              <div>技术指标</div>
+              <div v-if="code1">技术指标</div>
               <div v-if="code1">
                 <div class="contentright-intro-zhibiao">氮气产量：5~3000Nm²/h</div>
                 <div class="contentright-intro-zhibiao">氮气纯度：95~99.9998%</div>
                 <div class="contentright-intro-zhibiao">氮气压力：0~0.8MPa(可提供0.1~0.8MPa)</div>
                 <div class="contentright-intro-zhibiao">露点：≤-45℃（常压）</div>
               </div>
-              <div v-if="code2">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code3">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code4">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code5">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code6">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code7">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code8">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code9">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code10">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code11">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code12">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code13">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
-              <div v-if="code14">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <!-- <div v-if="code2" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code3" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code4" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code5" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code6" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code7" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code8" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code9" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code10" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code11" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code12" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code13" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div>
+              <div v-if="code14" class="margin20">&nbsp;&nbsp;&nbsp;&nbsp;暂无数据</div> -->
             </div>
           </div>
         </article>
@@ -142,43 +142,46 @@
             <img class="" src="../../assets/轮播图/变压吸附制氮装置/cs-bianyaxifu-zhidan.png" alt="">
           </div>
         </div>
-        <div v-if="code2">
+        <div v-if="code2" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code3">
+        <div v-if="code3" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code4">
+        <div v-if="code4" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code5">
+        <div v-if="code5" class="contentright-explain">“J制氧装置”主要参数表</div>
+        <div v-if="code5" class="margin50">
+          <img src="../../assets/轮播图/变压吸附制氧装/bianyaxifu-zhiyang.png" alt="">
+        </div>
+        <div v-if="code6" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code6">
+        <div v-if="code7" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code7">
+        <div v-if="code8" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code8">
+        <div v-if="code9" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code9">
+        <div v-if="code10" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code10">
+        <div v-if="code11" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
-        <div v-if="code11">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+        <div v-if="code12" class="contentright-explain">“微热再生吸干机”主要参数表</div>
+        <div v-if="code12" class="margin50" style="margin-top: 50px">
+          <img src="../../assets/轮播图/压缩空气净化设备/yasuoji-weire.png" alt="">
         </div>
-        <div v-if="code12">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+        <div v-if="code13" class="contentright-explain">“低露点压缩空气干燥机”主要参数表</div>
+        <div v-if="code13" class="margin50">
+          <img src="../../assets/轮播图/压缩空气净化设备/yasuoji-diludian-b.png" alt="">
         </div>
-        <div v-if="code13">
-          <img src="../../assets/轮播图/queshi.png" alt="">
-        </div>
-        <div v-if="code14">
+        <div v-if="code14" class="margin50">
           <img src="../../assets/轮播图/queshi.png" alt="">
         </div>
       </div>
@@ -270,6 +273,12 @@ export default {
 <style lang="less">
 .left {
   float: left;
+}
+.margin20 {
+  padding-top: 40px;
+}
+.margin50 {
+  margin-top: 50px;
 }
 .width100 {
   width: 100%;

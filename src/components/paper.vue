@@ -40,10 +40,10 @@
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
 							<span>hzjingwang2011@163.com</span>
 						</div>
-						<div class="paperBottom-bottom-intro-item">
+						<!-- <div class="paperBottom-bottom-intro-item">
 							<span>网&nbsp;&nbsp; 址 ：</span>
 							<span>XXXXXXXXXXXXXXXXXX</span>
-						</div>
+						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
 							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
