@@ -37,11 +37,11 @@
 					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
 						<div class="paperBottom-bottom-intro-item">
 							<span>联系人 ：</span>
-							<span>丁振兴</span>
+							<span>吴先生</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
-							<span>手 &nbsp;&nbsp;机 ：</span>
-							<span>13606536877</span>
+							<span>电话 &nbsp;&nbsp;话 ：</span>
+							<span>0571-63266676</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>传&nbsp;&nbsp; 真 ：</span>
@@ -49,15 +49,15 @@
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
-							<span>888888888@qq.com</span>
+							<span>hzjingwang2011@163.com</span>
 						</div>
-						<div class="paperBottom-bottom-intro-item">
+						<!-- <div class="paperBottom-bottom-intro-item">
 							<span>网&nbsp;&nbsp; 址 ：</span>
 							<span>XXXXXXXXXXXXXXXXXX</span>
-						</div>
+						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
-							<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
+							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
 						</div>
 					</div>
 				</div>
@@ -370,6 +370,7 @@ export default {
 }
   .techDetails {
     // height: 1650px;
+    padding-bottom: 150px;
     .productDetails-contentLeft {
       margin-top: 30px;
       .techDetails-content {
@@ -387,7 +388,7 @@ export default {
         }
         .contentRightWrap {
           margin-top: 10px;
-          border-top: 1px solid #333333;
+          border-top: 1px solid #FF6600;
           h2 {
             margin-top: 40px;
             color: #FF6C00;

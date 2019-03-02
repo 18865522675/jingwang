@@ -4,16 +4,16 @@
 	<comTitle>
 		<div class="contactPeople" style="margin-top: 50px;">
 			<div>
-				联 &nbsp;系 &nbsp;人 : <span>丁振兴</span>
+				联 &nbsp;系 &nbsp;人 : <span>金小姐 (业务部)</span>
 			</div>
 				<div>
-				联系电话 :&nbsp;<span>13606536877</span>
+				联系电话 :&nbsp;<span>137 3813 5657</span>
 			</div>
 				<div>
-				邮 &nbsp; &nbsp; &nbsp; 箱 : &nbsp;<span>888888888@qq.com</span>
+				邮 &nbsp; &nbsp; &nbsp; 箱 : &nbsp;<span>hzjingwang2011@163.com</span>
 			</div>
 				<div>
-				联系电话 ：<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
+				联系电话 ：<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
 			</div>
 		</div>
 	<!-- <p id="allmap" style="height: 500px;width: 100%;margin-top: 50px;margin-bottom: 50px;"></p> -->

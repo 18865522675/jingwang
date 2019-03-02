@@ -3,11 +3,21 @@
     <div id="nav">
       <el-row>
         <el-col class="top">
-          <div class="">
-            <div class="topTitle">杭&nbsp;州&nbsp;京&nbsp;&nbsp;旺&nbsp;科&nbsp;技&nbsp;有&nbsp;限&nbsp;公&nbsp;&nbsp;司</div>
-            <div class="topTitle1">HANG&nbsp;&nbsp;ZHOU&nbsp;&nbsp;JING&nbsp;&nbsp;WANG&nbsp;&nbsp;KE&nbsp;&nbsp;JI&nbsp;&nbsp;YOU&nbsp;&nbsp;XIAN&nbsp;&nbsp;GONG&nbsp;&nbsp;SI</div>
+          <div class="flex-r">
+          	<div class="flex-r" style="justify-content:center;">
+          	<div class="flex-r">
+          		<div  style="margin-top: 10px;">
+          		<img src="./assets/img/logo.png" alt="" />
+          		</div>
+             <div>
+            	<div class="topTitle">杭&nbsp;州&nbsp;京&nbsp;&nbsp;旺&nbsp;科&nbsp;技&nbsp;有&nbsp;限&nbsp;公&nbsp;&nbsp;司</div>
+            <div class="topTitle1">HANG&nbsp;&nbsp;ZHOU&nbsp;&nbsp;JING&nbsp;&nbsp;WANG&nbsp;&nbsp;KE&nbsp;&nbsp;JI&nbsp;&nbsp;YOU&nbsp;&nbsp;XIAN&nbsp;&nbsp;GONG&nbsp;&nbsp;SI</div>	
+            </div>
+          	</div>
+            
           </div>
           <div class="topTitle2">以诚信和质量为宗旨</div>
+          </div>
         </el-col>
         <el-col class="nav" :span="24" style="width: 100%;">
         <div style="width: 1200px; margin: 0 auto;">
@@ -38,7 +48,7 @@
         </el-row>
       </el-carousel-item>
     </el-carousel>
-    <router-view style="margin: 50px auto;width: 1200px; padding-bottom: 150px;margin-bottom: 0px!important;"/>
+    <router-view style="margin: 50px auto;width: 1200px; margin-bottom: 0px!important;padding-bottom: 150px;"/>
       <div class="bottom">
         <ul>
           <li @click="$router.push('/company')">
@@ -109,7 +119,7 @@ export default {
 }
 .productDetails-contentright{
   width: 800px;
-  height: 1000px;
+  // height: 1000px;
   padding-top: 5px;
   float: left;
 }
@@ -204,6 +214,7 @@ body {
       font-weight: 400;
       color:rgba(254,254,254,1);
       line-height: 100px;
+      margin-left: 30px;
     }
   }
   .nav {

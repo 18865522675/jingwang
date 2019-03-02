@@ -1,3 +1,5 @@
+
+    
 <template>
   <div class="home">
     <article class="content">
@@ -24,41 +26,41 @@
                 <img src="../assets/轮播图/变压吸附制氧装/sy-zhiyan.png" alt="">
                 <div>制氧装置</div>
               </div>
-              <!-- <div class="nitBg nitBg2">
-                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
-                <div>可移动制氮装置</div>
+              <div class="nitBg nitBg2">
+                <img src="../assets/zwct.png" alt="">
+                <div>暂无设备</div>
               </div>
               <div class="nitBg nitBg3">
-                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-                <div>撬装式制氮装置</div>
-              </div> -->
+                <img src="../assets/zwct.png" alt="">
+                <div>暂无设备</div>
+              </div>
             </el-tab-pane>
             <el-tab-pane label="天然转化制氢装置">
               <div class="nitBg nitBg1">
                 <img src="../assets/轮播图/天然转化制氢装置/sy-tianranqi-a.png" alt="">
-                <div>变压吸附制氮装置</div>
+                <div>制氢装置</div>
               </div>
               <div class="nitBg nitBg2">
                 <img src="../assets/轮播图/天然转化制氢装置/sy-tianranqi-b.png" alt="">
-                <div>可移动制氮装置</div>
+                <div>制氢装置</div>
               </div>
-              <!-- <div class="nitBg nitBg3">
-                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-                <div>撬装式制氮装置</div>
-              </div> -->
+              <div class="nitBg nitBg2">
+                <img src="../assets/zwct.png" alt="">
+                <div>暂无设备</div>
+              </div>
             </el-tab-pane>
             <el-tab-pane label="甲醇裂解制氢装置">
               <div class="nitBg nitBg1">
                 <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-a.png" alt="">
-                <div>变压吸附制氮装置</div>
+                <div>制氢装置</div>
               </div>
               <div class="nitBg nitBg2">
                 <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-b.png" alt="">
-                <div>可移动制氮装置</div>
+                <div>制氢装置</div>
               </div>
               <div class="nitBg nitBg3">
                 <img src="../assets/轮播图/甲醇裂解制氢装置/首页/jiachun-c.png" alt="">
-                <div>撬装式制氮装置</div>
+                <div>制氢装置</div>
               </div>
             </el-tab-pane>
             <el-tab-pane label="压缩空气净化设备">
@@ -80,14 +82,14 @@
                 <img src="../assets/轮播图/氮气纯化装置/sy-danqichunhau.png" alt="">
                 <div>氮气纯化装置</div>
               </div>
-              <!-- <div class="nitBg nitBg2">
-                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
-                <div>可移动制氮装置</div>
+              <div class="nitBg nitBg2">
+                <img src="../assets/zwct.png" alt="">
+                <div>暂无设备</div>
               </div>
-              <div class="nitBg nitBg3">
-                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-                <div>撬装式制氮装置</div> 
-              </div>-->
+              <div class="nitBg nitBg2">
+                <img src="../assets/zwct.png" alt="">
+                <div>暂无设备</div>
+              </div>
             </el-tab-pane>
           </el-tabs>
         </div>
@@ -163,14 +165,14 @@
 						<!-- <p id="allmap" style=""></p> -->
             <img src="../assets/切图/-s-lianxiwm.png" alt="">
 					</div>
-					<div class="paperBottom-bottom-intro" style="margin-top: 10px;">
+					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
 						<div class="paperBottom-bottom-intro-item">
 							<span>联系人 ：</span>
-							<span>丁振兴</span>
+							<span>吴先生</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
-							<span>手 &nbsp;&nbsp;机 ：</span>
-							<span>13606536877</span>
+							<span>电&nbsp;&nbsp; 话 ：</span>
+							<span>0571-63266676</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>传&nbsp;&nbsp; 真 ：</span>
@@ -178,15 +180,15 @@
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
-							<span>888888888@qq.com</span>
+							<span>hzjingwang2011@163.com</span>
 						</div>
-						<div class="paperBottom-bottom-intro-item">
+						<!-- <div class="paperBottom-bottom-intro-item">
 							<span>网&nbsp;&nbsp; 址 ：</span>
 							<span>XXXXXXXXXXXXXXXXXX</span>
-						</div>
+						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
-							<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
+							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
 						</div>
 					</div>
 				</div>
@@ -202,7 +204,6 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
   data () {
@@ -235,7 +236,6 @@ export default {
 .el-tabs__nav-wrap:after {
   // background: none!important;
 }
-
 .el-menu--horizontal {
   .el-menu--popup-bottom-start {
     margin: 0!important;
@@ -248,7 +248,6 @@ export default {
 .el-tabs__item:focus, .el-tabs__item:hover {
   background: #FF852C;
 }
-
 .el-tabs__active-bar {
   opacity: 0;
 }
@@ -262,7 +261,6 @@ export default {
 .el-tabs__item:hover {
   background: linear-gradient(-90deg,rgba(255,108,0,1),rgba(255,133,44,1));
 }
-
   .el-carousel__item {
     .imgWrap {
       width: 100%;
@@ -307,7 +305,7 @@ export default {
           height: 300px;
           margin-top: -40px;
           padding-top: 25px;
-          left: 580px;
+          left: 550px;
           position: absolute;
           overflow: visible!important;
           .nitBg {
@@ -530,4 +528,3 @@ export default {
   }
 }
 </style>
-
