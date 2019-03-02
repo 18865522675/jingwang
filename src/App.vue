@@ -26,7 +26,7 @@
               <el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
               <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
                 <template slot="title">{{item.name}}</template>
-                <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path" v-if="!child.hidden">{{child.name}}</el-menu-item>
+                <el-menu-item v-for="child in item.children" :index="child.path" :key="child.path" v-if="!child.hidden&&!child.meta">{{child.name}}</el-menu-item>
                 <el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path"><i :class="item.iconCls"></i>{{item.children[0].name}}</el-menu-item>
               </el-submenu>
             </template>
@@ -87,7 +87,7 @@ export default {
     return {
       numbers: '',
        imgList: [
-        {id: 0, imgUrls: require('@/assets/img/banner1.jpg')},
+        {id: 0, imgUrls: require('@/assets/img/banner1.png')},
         {id: 0, imgUrls: require('@/assets/img/banner2.jpg')},
         {id: 0, imgUrls: require('@/assets/img/banner3.jpg')}
       ]

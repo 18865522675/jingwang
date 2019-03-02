@@ -25,7 +25,8 @@ export default new Router({
       children: [
         {path: '/company', name: '公司简介', component: intoJw},
         {path: '/organization', name: '组织架构', component: () => import('./views/intoJW/organization.vue')},
-        {path: '/list', name: '工程案例', component: () => import('./views/intoJW/list.vue')},
+        {path: '/list', name: '工程应用', component: () => import('./views/intoJW/list.vue')},
+        {path: '/engineerPage/:id', name: '工程应用详情',meta:{hidden:true}, component: () => import('./components/engineerPage.vue')},
       ]
     },
     {

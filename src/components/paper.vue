@@ -12,7 +12,7 @@
 		</div>
 		<div class="paperBottom flex-r">
 			<div  class="paperBottom-left">
-				<div v-for="(item,index) in childRoute" @click="$router.push(item.path)" :key="index" class="paperBottom-left-item" >
+				<div v-for="(item,index) in childRoute" v-if="!item.meta" @click="$router.push(item.path)" :key="index" class="paperBottom-left-item" >
 					<span>{{item.name}}</span>
 					<i class="el-icon-arrow-right icons"></i>
 				</div>
