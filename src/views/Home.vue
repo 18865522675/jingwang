@@ -109,7 +109,7 @@
               </div>
               <h3>天然气转化制氢技术</h3>
               <div class="craftContent-intro">该技术是利用天然气加压脱硫后与水蒸汽在装填有催化剂的特殊转化炉内发生化学反应，生成含氢气、二氧化碳和一氧化碳的转化气，经废锅...</div>
-              <el-button>查看更多</el-button>
+              <el-button @click="$router.push({path: '/productDetails', query: {code: 6}})">查看更多</el-button>
               <!-- <div> -->
               <!-- </div> -->
             </div>
@@ -119,7 +119,7 @@
               </div>
               <h3>甲醇裂解制氢技术</h3>
               <p class="craftContent-intro">甲醇裂解-变压吸附制氢技术是一种以甲醇、水为原料，在一定的温度和压力下经催化剂转化成混合气体，然后通过变压吸附提纯氢气的一种技术。</p>
-              <el-button>查看更多</el-button>
+              <el-button @click="$router.push({path: '/productDetails', query: {code: 8}})">查看更多</el-button>
             </div>
             <div class="craftContent-wrap">
               <div class="craftContent-imgSize">
@@ -127,7 +127,7 @@
               </div>
               <h3>变压吸附制氮技术</h3>
               <p class="craftContent-intro">它是以空气为原材料，利用一种高效能、高选择的固体吸附剂对氮和氧的选择性吸附的性能把空气中的氮和氧分离出来。碳分子筛对氮和氧的...</p>
-              <el-button>查看更多</el-button>
+              <el-button @click="$router.push({path: '/productDetails', query: {code: 1}})">查看更多</el-button>
             </div>
             <div class="craftContent-wrap">
               <div class="craftContent-imgSize">
@@ -135,7 +135,7 @@
               </div>
               <h3>变压吸附制氧技术</h3>
               <p class="craftContent-intro">变压吸附制氧设备（也称PSA制氧设备），在常温常压的条件下，利用PSA专用分子筛选择性吸附空气中的氮气、二氧化碳和水等杂质，从而取得纯度...</p>
-              <el-button>查看更多</el-button>
+              <el-button @click="$router.push({path: '/productDetails', query: {code: 5}})">查看更多</el-button>
             </div>
           </div>
         </div>
