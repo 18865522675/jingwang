@@ -143,35 +143,35 @@
           </div>
         </div>
         <div v-if="code2" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code3" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code4" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code5" class="contentright-explain">“J制氧装置”主要参数表</div>
         <div v-if="code5" class="margin50">
           <img src="../../assets/轮播图/变压吸附制氧装/bianyaxifu-zhiyang.png" alt="">
         </div>
         <div v-if="code6" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code7" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code8" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code9" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code10" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code11" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
         <div v-if="code12" class="contentright-explain">“微热再生吸干机”主要参数表</div>
         <div v-if="code12" class="margin50" style="margin-top: 50px">
@@ -182,7 +182,7 @@
           <img src="../../assets/轮播图/压缩空气净化设备/yasuoji-diludian-b.png" alt="">
         </div>
         <div v-if="code14" class="margin50">
-          <img src="../../assets/轮播图/queshi.png" alt="">
+          <!-- <img src="../../assets/轮播图/queshi.png" alt=""> -->
         </div>
       </div>
     </div>
