@@ -26,15 +26,19 @@
 					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
 						<div class="paperBottom-bottom-intro-item">
 							<span>联系人 ：</span>
-							<span>吴先生</span>
+							<span>丁振兴先生</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>电 &nbsp;&nbsp;话 ：</span>
-							<span>0571-63266676</span>
+							<span>-</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>传&nbsp;&nbsp; 真 ：</span>
-							<span>0571-63266701</span>
+							<span>86-0571-63266701</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>手机号：</span>
+							<span>13606536877</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>邮 &nbsp;&nbsp;箱 ：</span>

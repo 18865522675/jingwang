@@ -19,7 +19,7 @@
               <div class="nitBg nitBg3">
                 <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
                 <div>撬装式制氮装置</div>
-              </div>
+              </div>	
             </el-tab-pane>
             <el-tab-pane label="变压吸附制氧装置">
               <div class="nitBg nitBg1">
@@ -168,15 +168,19 @@
 					<div class="paperBottom-bottom-intro" style="margin-top: 20px;">
 						<div class="paperBottom-bottom-intro-item">
 							<span>联系人 ：</span>
-							<span>吴先生</span>
+							<span>丁振兴先生</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>电&nbsp;&nbsp; 话 ：</span>
-							<span>0571-63266676</span>
+							<span>-</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>传&nbsp;&nbsp; 真 ：</span>
-							<span>0571-63266701</span>
+							<span>86-0571-63266701</span>
+						</div>
+						<div class="paperBottom-bottom-intro-item">
+							<span>手机号：</span>
+							<span>13606536877</span>
 						</div>
 						<div class="paperBottom-bottom-intro-item">
 							<span>邮 &nbsp;&nbsp;箱 ：</span>
@@ -188,7 +192,7 @@
 						</div> -->
 						<div class="paperBottom-bottom-intro-item">
 							<span style="transform: translateY(-50%);">地 &nbsp;&nbsp;址 ：</span>
-							<span>浙江省 杭州市 富阳市 新登镇双江路12号</span>
+							<span>浙江省 杭州市 富阳市 新登镇五里桥工业区虎山脚</span>
 						</div>
 					</div>
 				</div>
@@ -395,8 +399,10 @@ export default {
               margin-top: 10px;
               font-family: MicrosoftYaHei;
               font-weight: 400;
-              color: rgba(155,155,155,1);
+              color:#333333;
+              /*color: rgba(155,155,155,1);*/
               line-height: 27px;
+              
             }
             .el-button {
               width: 100%;

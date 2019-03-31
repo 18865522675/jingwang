@@ -53,7 +53,7 @@
 		div{
 			color:rgba(0,0,0,1);
 			line-height: 25px;
-			font-size: 14px;
+			font-size: 16px!important;
 			span{
 				display: inline-block;
 				padding-left: 5px;

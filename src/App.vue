@@ -20,8 +20,8 @@
           </div>
         </el-col>
         <el-col class="nav" :span="24" style="width: 100%;">
-        <div style="width: 1200px; margin: 0 auto;">
-          <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff">
+        <div style="width: 1200px; margin: 0 auto">
+          <el-menu :default-active="$route.path" id="menu" ref="menu" mode="horizontal" @select="handleselect" unique-opened router background-color="#FF6C00" text-color="#fff" active-text-color="#fff" style="margin-left:45px!important">
             <template v-for="(item, index) in $router.options.routes" v-if="!item.hidden">
               <el-menu-item v-if="!item.children" :index="item.path" class="routeChild" :key="item.path">{{item.name}}</el-menu-item>
               <el-submenu :index="index + ''" v-else style="width: 200px" class="routeChild">
@@ -82,12 +82,12 @@
 </template>
 <script>
 export default {
-  name: 'app',
+	  name: 'app',
   data () {
     return {
       numbers: '',
        imgList: [
-        {id: 0, imgUrls: require('@/assets/img/banner1.png')},
+        {id: 0, imgUrls: require('@/assets/img/banner1.jpg')},
         {id: 0, imgUrls: require('@/assets/img/banner2.jpg')},
         {id: 0, imgUrls: require('@/assets/img/banner3.jpg')}
       ]
@@ -124,7 +124,7 @@ export default {
   float: left;
 }
 // 联系我们
-.paperBottom-bottom{
+.paperBottom-bottom{	
 		margin-top: 40px;
 		.paperBottom-bottom-title{
 			font-size:19px;
@@ -263,6 +263,8 @@ body {
 }
 	.routeChild{
 		flex:1!important;
+		font-size: 16px!important;
+		font-weight: bold;
 	}
 	.el-menu-item{
 		text-align: center;
