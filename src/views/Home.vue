@@ -137,6 +137,34 @@
 			                <div>撬装式制氮装置</div>
 			              </div>
 		              </div>
+		              <div>
+		              	<div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+		              </div>
+		              <div>
+		              	<div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+		              </div>
 			    </el-tab-pane>
 			    <el-tab-pane label="变压吸附制氧装置" name="second">配置管理</el-tab-pane>
 			    <el-tab-pane label="天然转化制氢装置" name="third">角色管理</el-tab-pane>
@@ -346,7 +374,7 @@ export default {
     .productDisplay {
       .displayNav {
         width: 350px;
-        /*height: 400px;*/
+        height: 1300px;
         padding-top: 15px;
         position: static;
         z-index: 9999;
