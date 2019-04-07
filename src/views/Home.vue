@@ -4,9 +4,9 @@
   <div class="home">
     <article class="content">
       <div class="productDisplay">
-        <div class="displayNav">
-          <div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>
-          <el-tabs tab-position="left">
+        <!--<div class="displayNav">-->
+          <!--<div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>-->
+          <!--<el-tabs tab-position="left" style="height: 600px;">
             <el-tab-pane class="red" :class="['']" label="变压吸附制氮装置">
               <div class="nitBg nitBg1">
                 <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
@@ -19,7 +19,19 @@
               <div class="nitBg nitBg3">
                 <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
                 <div>撬装式制氮装置</div>
-              </div>	
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div>
+              <div class="nitBg nitBg3">
+                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+                <div>撬装式制氮装置</div>
+              </div>
             </el-tab-pane>
             <el-tab-pane label="变压吸附制氧装置">
               <div class="nitBg nitBg1">
@@ -91,8 +103,49 @@
                 <div>暂无设备</div>
               </div>
             </el-tab-pane>
-          </el-tabs>
-        </div>
+          </el-tabs>-->
+        <!--</div>-->
+        
+        
+          <div class="displayNav">
+          	<div class="navTitle">—&nbsp;&nbsp;产品展示&nbsp;&nbsp;—</div>
+          	<el-tabs v-model="activeName" type="card" @tab-click="handleClick" tab-position="left">
+			    <el-tab-pane label="变压吸附制氮装置" name="first">
+			    	<div class="nitBg nitBg1">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
+		                <div>变压吸附制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg2">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+		                <div>可移动制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg3">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+		                <div>撬装式制氮装置</div>
+		              </div>
+		              <div>
+		              	<div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+			              <div class="nitBg nitBg3">
+			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+			                <div>撬装式制氮装置</div>
+			              </div>
+		              </div>
+			    </el-tab-pane>
+			    <el-tab-pane label="变压吸附制氧装置" name="second">配置管理</el-tab-pane>
+			    <el-tab-pane label="天然转化制氢装置" name="third">角色管理</el-tab-pane>
+			    <el-tab-pane label="甲醇裂解制氢装置" name="fourth">定时任务补偿</el-tab-pane>
+			    <el-tab-pane label="压缩空气净化设备" name="fourth">定时任务补偿</el-tab-pane>
+			    <el-tab-pane label="氮气纯化装置" name="fourth">定时任务补偿</el-tab-pane>
+	        </el-tabs>
+          </div>
+          
         <div class="displayBottom displayBottom1"></div>
         <div class="displayBottom displayBottom2"></div>
       </div>
@@ -216,7 +269,8 @@ export default {
         {id: 0, imgUrls: require('../assets/img/banner1.jpg')},
         {id: 0, imgUrls: require('../assets/img/banner2.jpg')},
         {id: 0, imgUrls: require('../assets/img/banner3.jpg')}
-      ]
+      ],
+      activeName:"first"
     }
   },
   mounted(){
@@ -239,6 +293,9 @@ export default {
 	}
 .el-tabs__nav-wrap:after {
   // background: none!important;
+}
+.el-tabs__nav{
+	border: none!important;
 }
 .el-menu--horizontal {
   .el-menu--popup-bottom-start {
@@ -289,7 +346,7 @@ export default {
     .productDisplay {
       .displayNav {
         width: 350px;
-        height: 400px;
+        /*height: 400px;*/
         padding-top: 15px;
         position: static;
         z-index: 9999;
@@ -306,7 +363,7 @@ export default {
         }
         .el-tabs__content {
           // width: 600px;
-          height: 300px;
+          /*height: 300px;*/
           margin-top: -40px;
           padding-top: 25px;
           left: 550px;
@@ -531,6 +588,18 @@ export default {
         }
       }
     }
+  }
+  .displayNav{
+  	.el-tabs__item{
+  		border:none!important
+  	}
+  	.el-tabs__header{
+  		height:600px!important;
+  		border-bottom: none!important;
+  	}
+  	.el-tabs{
+  		border-bottom: none!important;
+  	}
   }
 }
 </style>
