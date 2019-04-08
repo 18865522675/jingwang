@@ -124,46 +124,46 @@
 		                <div>撬装式制氮装置</div>
 		              </div>
 		              <div>
-		              	<div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
+		              	<div class="nitBg nitBg1">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
+		                <div>变压吸附制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg2">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+		                <div>可移动制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg3">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+		                <div>撬装式制氮装置</div>
+		              </div>
 		              </div>
 		              <div>
-		              	<div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
+		              	<div class="nitBg nitBg1">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
+		                <div>变压吸附制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg2">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+		                <div>可移动制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg3">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+		                <div>撬装式制氮装置</div>
+		              </div>
 		              </div>
 		              <div>
-		              	<div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
-			              <div class="nitBg nitBg3">
-			                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
-			                <div>撬装式制氮装置</div>
-			              </div>
+		              	<div class="nitBg nitBg1">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-bianyaxifu-zhidan.png" alt="">
+		                <div>变压吸附制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg2">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-keyidon.png" alt="">
+		                <div>可移动制氮装置</div>
+		              </div>
+		              <div class="nitBg nitBg3">
+		                <img src="../assets/轮播图/变压吸附制氮装置/sy-qiaozhuangshi.png" alt="">
+		                <div>撬装式制氮装置</div>
+		              </div>
 		              </div>
 			    </el-tab-pane>
 			    <el-tab-pane label="变压吸附制氧装置" name="second">配置管理</el-tab-pane>
